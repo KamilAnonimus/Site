@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+.conteiner {
+    padding: 0px 30px;
+    width: 1000px;   
+    margin:0 auto;
+}
+
+.text1 {
+    position: absolute;
+    color: cornsilk;
+    margin-top: -8px;
+}
+
+.text2 {
+    position: relative;
+    color: cornsilk;
+    text-align: right;
+    bottom: -9px;
+}
+
+.upPanel {
+    position: fixed;
+    width: 100%;
+    background-color: #36b5ff;
+    border: 18px solid #36b5ff;
+}
+
+.location {
+    position: relative;
+    text-align: right;
+    right: 170px;
+    bottom: 9px;
+}
+
+.logo {
+    position: relative;
+    bottom: -30px;
+    text-align: left;
+}
+
+.workTime {
+    position: relative;
+    text-align: left;   
+    bottom: 40px;
+    text-align: center;
+}
+.clock {
+    position: relative;
+    text-align: left;   
+    bottom: 60px;
+    text-align: center;
+    right: 200px;
+}
+
+.numberPhone2 {
+    position: relative;
+    text-align: right;   
+    margin: 0 auto;
+    bottom: 90px;
+}
+
+.numberPhone1 {
+    position: relative;
+    text-align: right;   
+    margin: 0 auto;
+    bottom: 95px;
+}
+
+.stationPhone1 {
+    position: relative;
+    text-align: right;   
+    margin: 0 auto;
+    bottom: 130px;
+    right: 120px;
+}
+
+.stationPhone2 {
+    position: relative;
+    text-align: right;   
+    margin: 0 auto;
+    bottom: 130px;
+    right: 120px;
+}
+
+.panel.one {
+    position:absolute;
+    margin-top: 85px;
+}
+
+.panel.two {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 95px;
+}
+
+.panel.three {
+    position: absolute;
+    margin-top: 85px;
+    margin-left:190px;
+}
+
+.panel.four {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 356px;
+}
+
+.panel.five {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 512px;
+}
+
+.panel.six {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 591px;
+}
+
+.panel.seven {
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 686px;
+}
+
+.panel {
+    border: 0.1px solid rgba(212, 212, 212, 1);
+    padding: 20px;
+    position: fixed;
+    top: 100px;
+}
+
+.panel1 {
+    border: 0.1px solid rgba(212, 212, 212, 1);
+    padding: 29px;
+    position: fixed;
+    top: 185px;
+    padding-right: 100%;
+}
+
+.textPanel {
+    border: 2px solid black;
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    width: 108px;
+    left: 860px;
+    bottom: 50px;
+}
+

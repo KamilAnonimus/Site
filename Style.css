@@ -93,37 +93,37 @@ body {
 .panel.two {
     position: absolute;
     margin-top: 85px;
-    margin-left: 95px;
+    margin-left: 84px;
 }
 
 .panel.three {
     position: absolute;
     margin-top: 85px;
-    margin-left:190px;
+    margin-left:168px;
 }
 
 .panel.four {
     position: absolute;
     margin-top: 85px;
-    margin-left: 356px;
+    margin-left: 309px;
 }
 
 .panel.five {
     position: absolute;
     margin-top: 85px;
-    margin-left: 512px;
+    margin-left: 442px;
 }
 
 .panel.six {
     position: absolute;
     margin-top: 85px;
-    margin-left: 591px;
+    margin-left: 514px;
 }
 
 .panel.seven {
     position: absolute;
     margin-top: 85px;
-    margin-left: 686px;
+    margin-left: 598px;
 }
 
 .panel {
@@ -131,23 +131,29 @@ body {
     padding: 20px;
     position: fixed;
     top: 100px;
+    font-size: 80%;
 }
 
 .panel1 {
     border: 0.1px solid rgba(212, 212, 212, 1);
-    padding: 29px;
+    padding: 27px;
     position: fixed;
     top: 185px;
     padding-right: 100%;
 }
 
-.textPanel {
+.theBell {
     border: 2px solid black;
     position: relative;
     text-align: left;
     padding: 10px;
     width: 108px;
-    left: 860px;
-    bottom: 50px;
+    left: 815px;
+    bottom: 59px;
 }
 
+.basket {
+    position: relative;
+    text-align: right;
+    bottom: 90px;
+}

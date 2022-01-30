@@ -158,13 +158,9 @@ body {margin: 0;}
     bottom: 90px;
 }
 
+/* Слайдер */
 .slider-container {overflow: hidden;}
 
-.slider-track {display: flex;}
-    
-
-.slider-item {
- 
-}
+.slider-track {display: flex;transition:.2s;}
 
 .slider-butoons {text-align: center;}

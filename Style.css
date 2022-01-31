@@ -159,8 +159,8 @@ body {margin: 0;}
 }
 
 /* Слайдер */
-.slider-container {overflow: hidden;}
+.slider-container1 {overflow: hidden; width: 1000px;}
 
-.slider-track {display: flex;transition:.2s;}
+.slider-track {display: flex; transition: .2s;}
 
-.slider-butoons {text-align: center;}
+.slider-buttons {text-align: center;}

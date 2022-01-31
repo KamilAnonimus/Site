@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href='Style.css'>
-        <title>document</title>
+        <title>Electronic shop</title>
     </head>
     <body>
         <div class='OutsideTheContainer'>
@@ -39,7 +39,7 @@
                 <div class='basket'><img src='images/basket.png' height='25px'></div>
                 </div>
                 <div class='homeoage-top'>
-                    <div class='slider-container'>
+                    <div class='slider-container1'>
                         <div class='slider-track'>
                             <div class='slider-item'><img src='images/1bannerImage.jpg'></div>
                             <div class='slider-item'><img src='images/2bannerImage.jpg'></div>
@@ -49,12 +49,12 @@
                         </div>
                     </div>
                     <div class='slider-butoons'>
-                        <butoon class='btn-prev'><img src='images/sim-arrow-left.png'></butoon>
-                        <butoon class='btn-next'><img src='images/sim-arrow-right.png'></butoon>
-                    </div>
+                        <butoon class='btn-prev'onclick='movementRight()'><img src='images/sim-arrow-left.png'></butoon>
+                        <butoon class='btn-next'onclick='movementLeft()'><img src='images/sim-arrow-right.png'></butoon>
+                        <div class='sim-slider-dots'></div>
                 </div>
+                <button  id='search'></button>
             <script src='JS.js'></script>
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         </header>
     </body>
 </html>

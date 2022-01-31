@@ -161,6 +161,10 @@ body {margin: 0;}
 /* Слайдер */
 .slider-container1 {overflow: hidden; width: 1000px;}
 
-.slider-track {display: flex; transition: .2s;}
+.slider-track {display: flex; transition: .2s; background-color: white;}
 
 .slider-buttons {text-align: center;}
+
+/* .slider-item1 {
+    display: none;
+} */

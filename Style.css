@@ -159,12 +159,19 @@ body {margin: 0;}
 }
 
 /* Слайдер */
-.slider-container1 {overflow: hidden; width: 1000px;}
+.slider-container {overflow: hidden; width: 1000px;}
 
-.slider-track {display: flex; transition: .2s; background-color: white;}
+#slider-track {
+    display: flex;
+    transition: .2s; 
+    background-color: white;  
+    position: relative;
+}
 
 .slider-buttons {text-align: center;}
 
-/* .slider-item1 {
-    display: none;
-} */
+.slider-item:nth-child(5n+1) {background-image: url(images/1bannerImage.jpg);}
+.slider-item:nth-child(5n+2) {background-image: url(images/2bannerImage.jpg);}
+.slider-item:nth-child(5n+3) {background-image: url(images/3bannerImage.jpg);}
+.slider-item:nth-child(5n+4) {background-image: url(images/4bannerImage.jpg);}
+.slider-item:nth-child(5n+5) {background-image: url(images/5bannerImage.jpg);}

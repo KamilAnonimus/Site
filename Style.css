@@ -1,5 +1,6 @@
-body {margin: 0;}
-
+body {
+    margin: 0;
+}
 
 .conteiner {
     padding: 0px 30px;
@@ -159,7 +160,7 @@ body {margin: 0;}
 }
 
 /* Слайдер */
-.slider-container {overflow: hidden; width: 1000px;}
+#slider-container {overflow: hidden; width: 1000px;}
 
 #slider-track {
     display: flex;
@@ -169,9 +170,3 @@ body {margin: 0;}
 }
 
 .slider-buttons {text-align: center;}
-
-.slider-item:nth-child(5n+1) {background-image: url(images/1bannerImage.jpg);}
-.slider-item:nth-child(5n+2) {background-image: url(images/2bannerImage.jpg);}
-.slider-item:nth-child(5n+3) {background-image: url(images/3bannerImage.jpg);}
-.slider-item:nth-child(5n+4) {background-image: url(images/4bannerImage.jpg);}
-.slider-item:nth-child(5n+5) {background-image: url(images/5bannerImage.jpg);}

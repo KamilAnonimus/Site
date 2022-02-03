@@ -4,7 +4,12 @@ const track = document.querySelector('.slider-track'),
 
 var position = 0
 
-function change_css(){
+function prev(){
     position += 1200
+    document.getElementById('slider-track').style.cssText = `right:${position}px;`;
+}
+
+function next(){
+    position -= 1200
     document.getElementById('slider-track').style.cssText = `right:${position}px;`;
 }

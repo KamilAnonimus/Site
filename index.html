@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href='Style.css'>
+        <link rel="stylesheet" href='./style.css'>
         <title>Electronic shop</title>
     </head>
     <body>
@@ -10,7 +10,7 @@
             <div class='upPanel'></div>
             <div class='panel1'></div>
         </div>
-        <header class='conteiner'>
+        <header class='container'>
             <div class='header-top'>
                 <div class='rightList'>
                     <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
@@ -38,22 +38,19 @@
                 <div class='theBell'>Заказать звонок</div>
                 <div class='basket'><img src='images/basket.png' height='25px'></div>
                 </div>
-                <div class='homeoage-top'>
-                    <div id='slider-container'>
-                        <div id='slider-track'>
-                            <img src='images/1bannerImage.jpg' id='slider-single1'>
-                            <img src='images/2bannerImage.jpg' id='slider-single2'>
-                            <img src='images/3bannerImage.jpg' id='slider-single3'>
-                            <img src='images/4bannerImage.jpg' id='slider-single4'>
-                            <img src='images/5bannerImage.jpg' id='slider-single5'>
-                        </div>
+                <div class='homepage-top'>
+                    <div class="carousel-module">
+                        <div class="arrow-left"></div>
+                            <div class="img-container" >
+                                <img class="item-img" width="890px" height="300px" src='images/1bannerImage.jpg'/>
+                                <img class="item-img" id='two_img_track' width="890px" height="300px" src='images/2bannerImage.jpg'/>
+                                <img class="item-img" id='three_img_track' width="890px" height="300px" src='images/3bannerImage.jpg'/>
+                                <img class="item-img" id='four_img_track' width="890px" height="300px" src='images/4bannerImage.jpg'/>
+                                <img class="item-img" id='five_img_track' width="890px" height="300px" src='images/5bannerImage.jpg'/>
+                            </div>
+                        <div class="arrow-right"></div>
                     </div>
-                    <div class='slider-butoons'>
-                        <button class='btn-prev' onclick='prev();'><img src='images/sim-arrow-left.png'/></button>
-                        <butoon class='btn-next' onclick='next()'><img src='images/sim-arrow-right.png'></butoon>
-                        <div class='sim-slider-dots'></div>
                 </div>
-                <button  id='search'></button>
             <script src='JS.js'></script>
         </header>
     </body>

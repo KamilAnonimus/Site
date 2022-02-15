@@ -25,7 +25,7 @@ body {
 
 .upPanel { 
   position: absolute;
-  width: 100%;
+  padding-right: 95%;
   background-color: #36b5ff;
   border: 18px solid #36b5ff;
 }
@@ -142,7 +142,7 @@ body {
   padding: 27px;
   position: absolute;
   top: 185px;
-  padding-right: 100%;
+  padding-right: 95%;
 }
   
 .theBell {

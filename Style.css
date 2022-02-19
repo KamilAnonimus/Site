@@ -1,6 +1,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  width: 109%;
 }
   
 .container {
@@ -13,19 +14,19 @@ body {
 .text1 {
   position: absolute;
   color: cornsilk;
-  margin-top: -8px;
+  margin-top: -45px;
 }
 
 .text2 {
   position: relative;
   color: cornsilk;
   text-align: right;
-  bottom: -9px;
+  bottom: 27px;
 }
 
-.upPanel { 
-  position: absolute;
-  padding-right: 95%;
+.upPanel {
+  width: 100%;
+  position: relative;
   background-color: #36b5ff;
   border: 18px solid #36b5ff;
 }
@@ -34,12 +35,12 @@ body {
   position: relative;
   text-align: right;
   right: 170px;
-  bottom: 9px;
+  bottom: 45px;
 }
   
 .logo {
   position: relative;
-  bottom: -30px;
+  bottom: -10px;
   text-align: left;
 }
   
@@ -152,30 +153,16 @@ body {
   padding: 10px;
   width: 108px;
   left: 815px;
-  bottom: 59px;
+  bottom: 87px;
 }
   
 .basket {
   position: relative;
   text-align: right;
-  bottom: 90px;
+  bottom: 120px;
 }
   
   /* Слайдер */
-*:after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  outline: 0;
-}
-  
-*:before {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  outline: 0;
-}
-  
 .carousel-module {
   margin-top: 100px;
   min-width: 660px;
@@ -183,6 +170,7 @@ body {
 }
 
 .img-container {
+  bottom: 240px;
   left: 53px;
   position: relative;
   height: 300px;
@@ -201,7 +189,7 @@ body {
   border-color: transparent #000000 transparent transparent;
   position: relative;
   right: 490px;
-  top: 185px;
+  bottom: 60px;
 }
   
 .arrow-left:active {
@@ -220,7 +208,7 @@ body {
   border-color: transparent transparent transparent #000000;
   position: relative;
   left: 494px;
-  bottom: 185px;
+  bottom: 430px;
 }
   
 .arrow-right:active {

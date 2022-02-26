@@ -1,8 +1,9 @@
 body {
-  margin: 0;
+  margin: 0px;
   overflow-x: hidden;
-  width: 109%;
+  width: 100%;
   position: relative;
+  min-width: 1100px;
 }
   
 .container {
@@ -11,23 +12,24 @@ body {
   margin: 0 auto;
   max-block-size: 10%;
 }
-  
+
 .text1 {
   position: absolute;
   color: cornsilk;
-  margin-top: -45px;
+  margin-top: -100px;
 }
 
 .text2 {
   position: relative;
   color: cornsilk;
   text-align: right;
-  bottom: 27px;
+  bottom: 83px;
 }
 
 .upPanel {
-  width: 100%;
-  position: relative;
+  position: top;
+  margin: 0;
+	padding: 0;
   background-color: #36b5ff;
   border: 18px solid #36b5ff;
 }
@@ -36,26 +38,26 @@ body {
   position: relative;
   text-align: right;
   right: 170px;
-  bottom: 45px;
+  bottom: 100px;
 }
   
 .logo {
   position: relative;
-  bottom: -10px;
+  bottom: 60px;
   text-align: left;
 }
   
 .workTime {
   position: relative;
   text-align: left;
-  bottom: 40px;
+  bottom: 120px;
   text-align: center;
 }
 
 .clock {
   position: relative;
   text-align: left;
-  bottom: 60px;
+  bottom: 140px;
   text-align: center;
   right: 200px;
 }
@@ -64,21 +66,21 @@ body {
   position: relative;
   text-align: right;
   margin: 0 auto;
-  bottom: 90px;
+  bottom: 175px;
 }
   
 .numberPhone1 {
   position: relative;
   text-align: right;
   margin: 0 auto;
-  bottom: 95px;
+  bottom: 185px;
 }
   
 .stationPhone1 {
   position: relative;
   text-align: right;
   margin: 0 auto;
-  bottom: 130px;
+  bottom: 220px;
   right: 120px;
 }
   
@@ -86,7 +88,7 @@ body {
   position: relative;
   text-align: right;
   margin: 0 auto;
-  bottom: 130px;
+  bottom: 210px;
   right: 120px;
 }
   
@@ -141,10 +143,12 @@ body {
   
 .panel1 {
   border: 0.1px solid rgba(212, 212, 212, 1);
-  padding: 27px;
-  position: absolute;
-  top: 185px;
+  margin: 0;
+	padding: 0;
   padding-right: 95%;
+  position: relative;
+  top: 149px;
+  height: 54px;
 }
   
 .theBell {
@@ -154,13 +158,13 @@ body {
   padding: 10px;
   width: 108px;
   left: 815px;
-  bottom: 87px;
+  bottom: 143px;
 }
   
 .basket {
   position: relative;
   text-align: right;
-  bottom: 120px;
+  bottom: 175px;
 }
   
   /* Слайдер */
@@ -171,7 +175,7 @@ body {
 }
 
 .img-container {
-  bottom: 240px;
+  bottom: 300px;
   left: 53px;
   position: relative;
   height: 300px;
@@ -190,7 +194,7 @@ body {
   border-color: transparent #000000 transparent transparent;
   position: relative;
   right: 490px;
-  bottom: 60px;
+  bottom: 120px;
 }
   
 .arrow-left:active {
@@ -209,7 +213,7 @@ body {
   border-color: transparent transparent transparent #000000;
   position: relative;
   left: 494px;
-  bottom: 430px;
+  bottom: 480px;
 }
   
 .arrow-right:active {

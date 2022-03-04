@@ -190,12 +190,11 @@ body {
   cursor: pointer;
   transition: 1s;
   border-width: 20px 10px 20px 10px;
-  border-color: transparent #5c5c5c transparent transparent;
+  border-color: transparent #36b5ff transparent transparent;
   position: relative;
   right: 480px;
   bottom: 120px;
   z-index: 100;
-  
 }
 
 .arrow-left:hover {
@@ -215,7 +214,7 @@ body {
   cursor: pointer;
   transition: 1s;
   border-width: 20px 10px 20px 10px;
-  border-color: transparent transparent transparent #5c5c5c;
+  border-color: transparent transparent transparent #36b5ff;
   position: relative;
   left: 480px;
   bottom: 480px;
@@ -238,6 +237,28 @@ body {
   transition: .7s;
   left: 2200px;
 }
+
+.button {
+  position: relative;
+  border-width: 6px 6px 6px 6px;
+  border-style: solid;
+  color: #36b5ff;
+  width: 0;
+  height: 0;
+  top: -360px;
+  opacity: 60%;
+}
+
+.button.one {left: 560px;}
+.button.one:hover {left: 560px;opacity: 100%;}
+.button.two {left: 530px;top:-372px}
+.button.two:hover {left: 530px;opacity: 100%;}
+.button.three {left: 500px;top:-384px}
+.button.three:hover {left: 500px;opacity: 100%;}
+.button.four {left: 470px;top:-396px}
+.button.four:hover {left: 470px;opacity: 100%;}
+.button.five {left: 440px;top:-408px}
+.button.five:hover {left: 440px;opacity: 100%;}
   
 .item-img:nth-of-type(1) {
   -webkit-transform: translate(-530%, -50%);

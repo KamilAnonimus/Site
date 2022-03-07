@@ -64,3 +64,16 @@ function handleTouchMove(event) {
     };
   });
 }).call(this);
+
+const tabs = Array.from(document.querySelectorAll('.button'));
+let activeSlide = 0;
+var parent = document.querySelector('.img-container');
+var first = parent.querySelector('.item-img');
+tabs.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    activeSlide = i;
+    if (i===0) {
+      
+    }
+  });
+});

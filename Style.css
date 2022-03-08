@@ -192,7 +192,7 @@ body {
   border-width: 20px 10px 20px 10px;
   border-color: transparent #36b5ff transparent transparent;
   position: relative;
-  right: 480px;
+  right: 530px;
   bottom: 120px;
   z-index: 100;
 }
@@ -240,25 +240,25 @@ body {
 
 .button {
   position: relative;
-  border-width: 6px 6px 6px 6px;
+  border-width: 0px 6px 0px 6px;
   border-style: solid;
   color: #36b5ff;
   width: 0;
   height: 0;
-  top: -360px;
+  top: -365px;
   opacity: 60%;
 }
 
-.button.one {left: 560px;}
-.button.one:hover {left: 560px;opacity: 100%;}
-.button.two {left: 530px;top:-372px}
-.button.two:hover {left: 530px;opacity: 100%;}
-.button.three {left: 500px;top:-384px}
-.button.three:hover {left: 500px;opacity: 100%;}
-.button.four {left: 470px;top:-396px}
-.button.four:hover {left: 470px;opacity: 100%;}
-.button.five {left: 440px;top:-408px}
-.button.five:hover {left: 440px;opacity: 100%;}
+.button.one {left: 80px;}
+.button.one:hover {left: 80px;opacity: 100%;}
+.button.two {left: 40px;top:-365px;}
+.button.two:hover {left: 40px;opacity: 100%;}
+.button.three {left: 0px;top:-365px}
+.button.three:hover {left: 0px;opacity: 100%;}
+.button.four {right: 40px;top:-365px}
+.button.four:hover {right: 40px;opacity: 100%;}
+.button.five {right: 80px;top:-365px}
+.button.five:hover {right: 80px;opacity: 100%;}
   
 .item-img:nth-of-type(1) {
   -webkit-transform: translate(-530%, -50%);
@@ -283,4 +283,64 @@ body {
 .item-img:nth-of-type(5) {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-47%, -50%);
+}
+
+.slider input[name="switch"] {
+  display: none;
+}
+
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+#btn4:checked~.switch label[for="btn4"] {
+  background-color: white;
+}
+
+#btn5:checked~.switch label[for="btn5"] {
+  background-color: white;
+}
+
+#btn1:checked~.slider-inner .img-container {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .img-container {
+  transform: translate(-680px);
+}
+
+#btn3:checked~.slider-inner .img-container {
+  transform: translate(-1360px);
+}
+
+#btn4:checked~.slider-inner .img-container {
+  transform: translate(-2040px);
+}
+
+#btn5:checked~.slider-inner .img-container {
+  transform: translate(-2720px);
+}
+
+#btn {
+display: none;
 }

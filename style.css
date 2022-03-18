@@ -301,46 +301,59 @@ body {
   background-color: #738290;
 }
 
-#btn1:checked~.switch label[for="btn1"] {
+#btn1:checked~.buttons label[for="btn1"] {
   background-color: white;
 }
 
-#btn2:checked~.switch label[for="btn2"] {
+#btn2:checked~.buttons label[for="btn2"] {
   background-color: white;
 }
 
-#btn3:checked~.switch label[for="btn3"] {
+#btn3:checked~.buttons label[for="btn3"] {
   background-color: white;
 }
 
-#btn4:checked~.switch label[for="btn4"] {
+#btn4:checked~.buttons label[for="btn4"] {
   background-color: white;
 }
 
-#btn5:checked~.switch label[for="btn5"] {
+#btn5:checked~.buttons label[for="btn5"] {
   background-color: white;
 }
 
-#btn1:checked~.slider-inner .img-container {
-  transform: translate(0);
+#btn1:checked~ #one_img_track {
+  -webkit-transform: translate(-410%, -50%);
+  transform: translate(-348%, -50%);
 }
 
-#btn2:checked~.slider-inner .img-container {
-  transform: translate(-680px);
+#btn2:checked~ #two_img_track {
+  -webkit-transform: translate(-410%, -50%);
+  transform: translate(-348%, -50%);
 }
 
-#btn3:checked~.slider-inner .img-container {
-  transform: translate(-1360px);
+#btn3:checked~ #three_img_track {
+  -webkit-transform: translate(-290%, -50%);
+  transform: translate(-220%, -50%);
 }
 
-#btn4:checked~.slider-inner .img-container {
-  transform: translate(-2040px);
+#btn4:checked~ #four_img_track {
+  -webkit-transform: translate(-170%, -50%);
+  transform: translate(-120%, -50%);
 }
 
-#btn5:checked~.slider-inner .img-container {
-  transform: translate(-2720px);
+#btn5:checked~ #five_img_track {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-47%, -50%);
 }
 
-#btn {
-display: none;
-}
+#one_img_track { background-image: url(images/1bannerImage.jpg); }
+#two_img_track { background-image: url(images/2bannerImage.jpg); }
+#three_img_track { background-image: url(images/3bannerImage.jpg); }
+#four_img_track { background-image: url(images/4bannerImage.jpg); }
+#five_img_track { background-image: url(images/5bannerImage.jpg); }
+
+#one_img_track {width:1000px; height: 300px;}
+#two_img_track {width:1000px; height: 300px;}
+#three_img_track {width:1000px; height: 300px;}
+#four_img_track {width:1000px; height: 300px;}
+#five_img_track {width:1000px; height: 300px;}

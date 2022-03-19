@@ -2,10 +2,12 @@
 <html lang='en'>
     <head>
         <meta charset='UTF-8'>
-        <link rel="stylesheet" href='style.css'>
+        <link rel="stylesheet" href='style1.css'>
         <title>Electronic shop</title>
-    </head>
+	    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	    <script type="text/javascript" src="engine0/jquery.js"></script></head>
     <body>
+        <div id="wowslider_engine" style="display: none;"></div>
         <div class='OutsideTheContainer'>
             <div class='upPanel'></div>
             <div class='panel1'></div>
@@ -37,34 +39,28 @@
                 <div class='panel seven'>Контакты</div>
                 <div class='theBell'>Заказать звонок</div>
                 <div class='basket'><img src='images/basket.png' height='25px'></div>
-                </div>
                 <div class='homepage-top'>
-                    <div class='carousel-module'>
-                        <input type="radio" name="switch" id="btn1" checked="">
-                        <input type="radio" name="switch" id="btn2" checked="">
-                        <input type="radio" name="switch" id="btn3" checked="">
-                        <input type="radio" name="switch" id="btn4" checked="">
-                        <input type="radio" name="switch" id="btn5" checked="">
-                        <div class='arrow-left'></div>
-                        <div class="slider-inner"></div>
-                            <div class='img-container'>
-                                <img class='item-img' id='one_img_track'/>
-                                <img class='item-img' id='two_img_track'/>
-                                <img class='item-img' id='three_img_track'/>
-                                <img class='item-img' id='four_img_track'/>
-                                <img class='item-img' id='five_img_track'/>
-                            </div>
-                        <div class='arrow-right'></div>
-                        <div class='buttons'>
-                            <label class='button one' for="btn1" id="switcher1"></label>
-                            <label class='button two' for="btn2" id="switcher2"></label>
-                            <label class='button three' for="btn3" id="switcher3"></label>
-                            <label class='button four' for="btn4" id="switcher4"></label>
-                            <label class='button five' for="btn5" id="switcher5"></label>
+                    <div id="wowslider-container0">
+                        <div class="ws_images"><ul>
+                            <li><img src="data0/images/5bannerimage.jpg" alt="5bannerImage" title="5bannerImage" id="wows0_0"/></li>
+                            <li><img src="data0/images/1bannerimage.jpg" alt="1bannerImage" title="1bannerImage" id="wows0_1"/></li>
+                            <li><img src="data0/images/2bannerimage.jpg" alt="2bannerImage" title="2bannerImage" id="wows0_2"/></li>
+                            <li><a href="http://wowslider.net"><img src="data0/images/3bannerimage.jpg" alt="javascript carousel" title="3bannerImage" id="wows0_3"/></a></li>
+                            <li><img src="data0/images/4bannerimage.jpg" alt="4bannerImage" title="4bannerImage" id="wows0_4"/></li>
+                        </ul></div>
+                        <div class="ws_bullets"><div>
+                            <a href="#" title="5bannerImage"><span><img src="data0/tooltips/5bannerimage.jpg" alt="5bannerImage"/>1</span></a>
+                            <a href="#" title="1bannerImage"><span><img src="data0/tooltips/1bannerimage.jpg" alt="1bannerImage"/>2</span></a>
+                            <a href="#" title="2bannerImage"><span><img src="data0/tooltips/2bannerimage.jpg" alt="2bannerImage"/>3</span></a>
+                            <a href="#" title="3bannerImage"><span><img src="data0/tooltips/3bannerimage.jpg" alt="3bannerImage"/>4</span></a>
+                            <a href="#" title="4bannerImage"><span><img src="data0/tooltips/4bannerimage.jpg" alt="4bannerImage"/>5</span></a>
+                        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slideshow javascript</a> by WOWSlider.com v9.0</div>
+                            <div class="ws_shadow"></div>
+                        </div>	
+                            <script type="text/javascript" src="engine0/wowslider.js"></script>
+                            <script type="text/javascript" src="engine0/script.js"></script>
                         </div>
-                    </div>
                 </div>
-            <script src='java.js'></script>
         </header>
     </body>
 </html>

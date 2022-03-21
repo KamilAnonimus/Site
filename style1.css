@@ -27,7 +27,6 @@ body {
 }
 
 .upPanel {
-  position: top;
   margin: 0;
 	padding: 0;
   background-color: #36b5ff;
@@ -96,31 +95,31 @@ body {
   position: absolute;
   margin-top: 85px;
 }
-  
+
 .panel.two {
   position: absolute;
   margin-top: 85px;
   margin-left: 81px;
 }
-  
+
 .panel.three {
   position: absolute;
   margin-top: 85px;
   margin-left: 162px;
 }
-  
+
 .panel.four {
   position: absolute;
   margin-top: 85px;
   margin-left: 295px;
 }
-  
+
 .panel.five {
   position: absolute;
   margin-top: 85px;
   margin-left: 421px;
 }
-  
+
 .panel.six {
   position: absolute;
   margin-top: 85px;
@@ -132,13 +131,17 @@ body {
   margin-top: 85px;
   margin-left: 571px;
 }
-  
+
 .panel {
   border: 0.1px solid rgba(212, 212, 212, 1);
   padding: 20px;
   position: fixed;
   top: 100px;
   font-size: 11.78px;
+}
+.panel:hover{
+  background-color: #36b5ff;
+  transition: 0.5s;
 }
   
 .panel1 {
@@ -153,18 +156,19 @@ body {
   
 .theBell {
   border: 2px solid black;
-  position: relative;
+  position: absolute;
   text-align: left;
   padding: 10px;
   width: 108px;
-  left: 815px;
-  bottom: 143px;
+  margin-left: 820px;
+  top: 191px;
 }
+.theBell:hover {background-color: #ebebeb;transition:0.5s;}
   
 .basket {
-  position: relative;
-  text-align: right;
-  bottom: 175px;
+  position: absolute;
+  margin-left: 960px;
+  top: 200px;
 }
   
 .tablet {
@@ -175,7 +179,7 @@ body {
   position: absolute;
   top: 580px;
 }
-.a {left: 696px;}
+
 .text_a {
   font-size: 13px;
   margin-left: 70px;
@@ -189,10 +193,11 @@ body {
   color: white;
 }
 .img-tablet-a {
- margin-top: -60px;
+ margin-top: -65px;
+ margin-left: 4px;
 }
 
-.b {left: 946px;}
+.b {margin-left: 252px;}
 .text_b {
   font-size: 13px;
   margin-left: 70px;
@@ -206,10 +211,11 @@ body {
   color: white;
 }
 .img-tablet-b {
- margin-top: -60px;
+  margin-left: 4px;
+ margin-top: -65px;
 }
 
-.c {left: 1196px;}
+.c {margin-left: 505px;}
 .text_c {
   font-size: 13px;
   margin-left: 70px;
@@ -223,10 +229,11 @@ body {
   color: white;
 }
 .img-tablet-c {
+  margin-left: 5px;
  margin-top: -60px;
 }
 
-
+.d {margin-left: 758px;}
 .text_d {
   font-size: 13px;
   margin-left: 70px;
@@ -240,5 +247,45 @@ body {
   color: white;
 }
 .img-tablet-d {
+ margin-left: 5px;
  margin-top: -60px;
+}
+
+.background {
+  z-index: -1;
+  height: 450px;
+  border: 0px solid;
+  background-color: #f5f5f5;
+  position: relative;
+  top: 150px;
+}
+
+.OutsideTheContainer {height: 90px;}
+
+.text3 {
+  position: relative;
+  top: 90px;
+  font-size: 25px;
+}
+
+.new {
+  position: relative;
+  top: 120px;
+  border: 1px solid;
+  height: 300px;
+  width: 240px;
+}
+
+.table-new {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border: 0px solid;
+  height: 15px;
+  width: 60px;
+  background-color: rgb(9, 185, 9);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 6px;
 }

@@ -3,12 +3,12 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-  min-width: 1100px;
+  min-width: 1300px;
 }
 
 .container {
   padding: 0px 30px;
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   max-block-size: 10%;
 }
@@ -36,7 +36,7 @@ body {
 .location {
   position: relative;
   text-align: right;
-  right: 17%;
+  right: 170px;
   bottom: 100px;
 }
   
@@ -99,7 +99,7 @@ body {
 .panel.two {
   position: absolute;
   margin-top: 85px;
-  margin-left: 81px;
+  margin-left: 80px;
 }
 
 .panel.three {
@@ -160,21 +160,21 @@ body {
   text-align: left;
   padding: 10px;
   width: 108px;
-  margin-left: 820px;
+  margin-left: 1020px;
   top: 191px;
 }
 .theBell:hover {background-color: #ebebeb;transition:0.5s;}
   
 .basket {
   position: absolute;
-  margin-left: 960px;
+  margin-left: 1160px;
   top: 200px;
 }
   
 .tablet {
   border: 1px solid #636666;
   background-color: #636666;
-  width: 240px;
+  width: 280px;
   height: 90px;
   position: absolute;
   top: 580px;
@@ -183,7 +183,7 @@ body {
 .text_a {
   font-size: 13px;
   margin-left: 70px;
-  margin-top:15px;
+  margin-top: 15px;
   color: white;
 }
 .text_aa {
@@ -197,11 +197,11 @@ body {
  margin-left: 4px;
 }
 
-.b {margin-left: 252px;}
+.b {margin-left: 302px;}
 .text_b {
   font-size: 13px;
   margin-left: 70px;
-  margin-top:15px;
+  margin-top: 15px;
   color: white;
 }
 .text_bb {
@@ -215,11 +215,11 @@ body {
  margin-top: -65px;
 }
 
-.c {margin-left: 505px;}
+.c {margin-left: 610px;}
 .text_c {
   font-size: 13px;
   margin-left: 70px;
-  margin-top:15px;
+  margin-top: 15px;
   color: white;
 }
 .text_cc {
@@ -233,11 +233,11 @@ body {
  margin-top: -60px;
 }
 
-.d {margin-left: 758px;}
+.d {margin-left: 917px;}
 .text_d {
   font-size: 13px;
   margin-left: 70px;
-  margin-top:15px;
+  margin-top: 15px;
   color: white;
 }
 .text_dd {
@@ -266,16 +266,15 @@ body {
   position: relative;
   top: 90px;
   font-size: 25px;
+  height: 1356px;
 }
-
-.new {
+.borders {
   position: relative;
-  top: 120px;
+  top: 40px;
   border: 1px solid;
-  height: 300px;
-  width: 240px;
+  height: 400px;
+  width: 280px;
 }
-
 .table-new {
   position: relative;
   top: 5px;
@@ -288,4 +287,154 @@ body {
   font-size: 10px;
   text-align: center;
   padding-top: 6px;
+}
+.type {
+  color: #929292;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.name {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.tab {
+  color: white;
+  border: 0px solid;
+  background-color: #36b5ff;
+  font-size: 17px;
+  width: 110px;
+  text-align: center;
+  margin-top: 30px;
+  height: 25px;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+.tab:hover{opacity: 70%;transition: 0,5s;}
+.price {
+  margin-top: -32px;
+  margin-left: 160px;
+  color: #df8620;
+}
+.img_border {
+margin-top: 30px;
+margin-left: 20px;
+}
+.new_two {left: 302px;top:-361px;}
+.new_three {left: 610px;top:-763px;}
+.new_four {left: 917px;top:-1165px;}
+.new_five {top:-1140px;}
+.new_six {left: 302px;top:-1541px;}
+.new_seven {left: 610px;top:-1943px;}
+.new_eight {left: 917px;top:-2345px;}
+.new_nine {top:-2321px;}
+.new_ten {left: 302px;top:-2723px;}
+.new_eleven {left: 610px;top:-3125px;}
+.new_twelve {left: 917px;top:-3526px;}
+
+.homepage-top {height: 1726px;}
+
+.banner {margin-top:30px;}
+
+.text4 {
+  position: relative;
+  top: 40px;
+  font-size: 25px;
+  height: 500px;
+}
+.table-hit {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border: 0px solid;
+  height: 15px;
+  width: 45px;
+  background-color: rgb(212, 181, 7);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 6px;
+}
+.crossed-out-price {
+  font-size: 17px;
+  margin-left: 190px;
+  margin-top: -40px;
+  color: #929292;
+}
+.price_hit {
+  margin-top: -25px;
+  margin-left: 180px;
+  color: #df8620;
+  font-size: 20px;
+}
+.hit_two {left: 302px;top:-361px;}
+.hit_three {left: 610px;top:-763px;}
+.hit_four {left: 917px;top:-1165px;}
+
+.text5 {
+  position: relative;
+  top: 40px;
+  font-size: 25px;
+  height: 500px;
+}
+.table-stock {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border: 0px solid;
+  height: 15px;
+  width: 45px;
+  background-color: rgb(212, 7, 7);
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 6px;
+}
+.price_stock {
+  margin-top: -25px;
+  margin-left: 180px;
+  color: #df8620;
+  font-size: 20px;
+}
+.stock_two {left: 302px;top:-361px;}
+.stock_three {left: 610px;top:-763px;}
+.stock_four {left: 917px;top:-1165px;}
+
+.background2 {
+  z-index: -1;
+  height: 400px;
+  border: 0px solid;
+  background-color: #f5f5f5;
+  position: relative;
+  top: 2900px;
+}
+
+.tablets {
+  border: 0px solid;
+  background-color: white;
+  width: 191.6px;
+  height: 140px;
+  position: relative;
+}
+.tablet-one {text-align: center;}
+.tablet-two {bottom: 140px;left: 200px;}
+.tablet-three {bottom: 280px;left: 400px;}
+.tablet-four {bottom: 420px;left: 600px;}
+.tablet-five {bottom: 560px;left: 800px;}
+.tablet-six {bottom: 700px;left: 1000px;}
+.tablet-seven {bottom: 690px;}
+.tablet-eight {bottom: 830px;left: 200px;}
+.tablet-nine {bottom: 970px;left: 400px;}
+.tablet-ten {bottom: 1110px;left: 600px;}
+.tablet-eleven {bottom: 1250px;left: 800px;}
+.tablet-twelve {bottom: 1390px;left: 1000px;}
+.img {text-align: center;padding-top: 50px;}
+.apple {padding-top: 50px;}
+.acer {padding-top: 50px;}
+.tabletss {height: 300px;margin-top: -1060px;}
+
+.description {
+  position: relative;
+  top: 120px;
+  font-size: 25px;
 }

@@ -20,7 +20,7 @@
 	zoom: 1; 
 	position: relative;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1200px;
 	max-height: 360px;
 	margin: 0px auto 0px;
 	z-index: 90;
@@ -62,10 +62,11 @@
 	top: 0;
 	height: 100%;
 	max-height: 360px;
-	max-width: 1000px;
+	max-width: 1200px;
 	vertical-align: top;
 	border: none;
 	overflow: hidden;
+	height: 310px;
 }
 
 #wowslider-container0 .ws_images ul a{

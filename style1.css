@@ -22,8 +22,9 @@ body {
 .text2 {
   position: relative;
   color: cornsilk;
-  text-align: right;
   bottom: 83px;
+  width: 170px;
+  left: 1030px;
 }
 
 .upPanel {
@@ -35,9 +36,9 @@ body {
   
 .location {
   position: relative;
-  text-align: right;
-  right: 170px;
+  left: 1010px;
   bottom: 100px;
+  width: 20px;
 }
   
 .logo {
@@ -48,47 +49,49 @@ body {
   
 .workTime {
   position: relative;
-  text-align: left;
   bottom: 120px;
-  text-align: center;
+  width: 370px;
+  left: 420px;
 }
 
 .clock {
   position: relative;
-  text-align: left;
   bottom: 140px;
   text-align: center;
-  right: 200px;
+  left: 390px;
+  width: 20px;
 }
   
 .numberPhone2 {
   position: relative;
-  text-align: right;
   margin: 0 auto;
   bottom: 175px;
+  width: 120px;
+  left: 545px;
 }
   
 .numberPhone1 {
   position: relative;
-  text-align: right;
   margin: 0 auto;
   bottom: 185px;
+  width: 120px;
+  left: 545px;
 }
   
 .stationPhone1 {
   position: relative;
-  text-align: right;
   margin: 0 auto;
   bottom: 220px;
-  right: 120px;
+  left: 475px;
+  width: 20px;
 }
   
 .stationPhone2 {
   position: relative;
-  text-align: right;
   margin: 0 auto;
   bottom: 210px;
-  right: 120px;
+  left: 475px;
+  width: 20px;
 }
   
 .panel.one {
@@ -153,17 +156,6 @@ body {
   top: 149px;
   height: 54px;
 }
-  
-.theBell {
-  border: 2px solid black;
-  position: absolute;
-  text-align: left;
-  padding: 10px;
-  width: 108px;
-  margin-left: 1020px;
-  top: 191px;
-}
-.theBell:hover {background-color: #ebebeb;transition:0.5s;}
   
 .basket {
   position: absolute;
@@ -452,4 +444,14 @@ margin-left: 20px;
   position: relative;
   left: 900px;
   bottom: 340px;
+  width: 200px;
+}
+
+.homepage-down {
+  height: 2350px;
+}
+
+.logo_link {
+  height: 50px;
+  border: 1px solid none;
 }

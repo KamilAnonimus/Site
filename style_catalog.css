@@ -1,0 +1,32 @@
+.link1 {
+    position: relative;
+    width: 75%;
+    top: -50px;
+    left: 200px;
+    height: 30px;
+    box-shadow: 0 0 6px 0 rgb(148, 145, 145);
+    border: 1px solid rgb(129, 129, 129);
+}
+
+.link {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px ;
+    top: -44px;
+    left: 190px;
+    border: 1px solid rgb(129, 129, 129);
+    box-shadow: 0 0 6px 0 rgb(107, 107, 107);
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+}
+
+.filter {
+    position: relative;
+    top: -90px;
+    width: 150px;
+}
+

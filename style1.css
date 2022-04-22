@@ -305,7 +305,7 @@ body {
 .tab:hover{opacity: 70%;transition: 0,5s;}
 .price {
   margin-top: -32px;
-  margin-left: 160px;
+  margin-left: 150px;
   color: #df8620;
 }
 .img_border {
@@ -447,11 +447,6 @@ margin-left: 20px;
   width: 200px;
 }
 
-.homepage-down {
-  height: 2350px;
-}
+.homepage-down {height: 2350px;}
 
-.logo_link {
-  height: 50px;
-  border: 1px solid none;
-}
+.img_border {text-align: center;}

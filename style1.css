@@ -45,6 +45,7 @@ body {
   position: relative;
   bottom: 60px;
   text-align: left;
+  width: 100px;
 }
   
 .workTime {
@@ -289,6 +290,7 @@ body {
 .name {
   font-size: 20px;
   margin-left: 20px;
+  color: black;
 }
 .tab {
   color: white;

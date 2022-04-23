@@ -1,15 +1,19 @@
-var one = document.getElementsByClassName('link')
-one.onclick = () => {
-   alert("click")
+document.querySelector('#elastic').oninput = function(){
+    let val = this.value.trim();
+    let elasticName = document.querySelectorAll('.elastic li');
+    if (val != "") {
+        elasticName.forEach(function(elem){
+            if(elem.innerText.search(val) == -1) {
+                elem.classList.add('hide');
+            }
+            else {
+                elem.classList.remove('hide');
+            }
+        });
+    }
+    else {
+        elasticName.forEach(function(elem){
+            elem.classList.remove('hide');
+        });
+    }
 }
-
-const people = [
-    {name:'Vladilen',budget:4200},
-    {name:'Vladilen',budget:3000},
-    {name:'Vladilen',budget:3500}
-]
-
-const person = people.find(function(person) {
-    return person.budget === 3500
-})
-console.log(person)

@@ -48,6 +48,7 @@ li {
     width: 281px;
     height: 400px;
     padding-left: 20px;
+    padding-top: 30px;
 }
 
 .borders_catalog {
@@ -57,7 +58,7 @@ li {
     border: 1px solid;
     height: 400px;
     width: 280px;
-    top:-60px;
+    top:-80px;
 }
 
 li::marker {display: none;}
@@ -98,4 +99,20 @@ ul li {
     top: 5px;
     position: relative;
     font-size: 20px;
+}
+
+li.one {
+    position: relative;
+    top: -17px;
+    margin-bottom: 70px;
+}
+
+.borders_catalog_one {
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    border: 1px solid;
+    height: 400px;
+    width: 280px;
+    top:-63px;
 }

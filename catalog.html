@@ -27,14 +27,39 @@
             <div id="filter">
                 <div id="categories"><h3>Категории</h3></div>
                 <div id="arrow"></div>
-                <div id="ticks1">
-                    <div id="mark"></div>
-                    <div class="name1">Смартфон</div>
+                <div class="buttons">
+                    <div id="ticks" class="ticks one">
+                        <div id="mark" class="mark_one"></div>
+                    </div>
+                    <div id="ticks" class="ticks two">
+                        <div id="mark" class="mark_two"></div>
+                    </div>
+                    <div id="ticks" class="ticks three">
+                        <div id="mark" class="mark_three"></div>
+                    </div>
+                    <div id="ticks" class="ticks four">
+                        <div id="mark" class="mark_four"></div>
+                    </div>
+                    <div id="ticks" class="ticks five">
+                        <div id="mark" class="mark_five"></div>
+                    </div>
+                    <div id="ticks" class="ticks six">
+                        <div id="mark" class="mark_six"></div>
+                    </div>
                 </div>
+                
+                <ul class="ul" id="ul" style='display: none;'>
+                    <li data-f="phone" class="name_categories" id="name1">Смартфон   
+                    <li data-f="laptop" class="name_categories" id="name2">Ноутбук
+                    <li data-f="vertual_reality" class="name_categories" id="name3">Очки виртуальной реальности
+                    <li data-f="ssd" class="name_categories" id="name4">SSD накопитель
+                    <li data-f="cpu" class="name_categories" id="name5">Процессор
+                    <li data-f="all" class="name_categories" id="name6">Все
+                </ul>
             </div>
             <ul class="elastic">
-                <li class="one">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 15 хуавей Хуавей [efdtq] {eqdtq}
-                    <div class='borders_catalog_one' style="color: black;">
+                <li class="borders_catalog laptop one">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 15 хуавей Хуавей [efdtq] {eqdtq}
+                    <div class='borders_catalog laptop' id='borders_catalog_one'style="color: black;">
                         <div class='img_border'><img src='images/laptop1.jpg' height='160px' width="250px"></div> 
                         <div class='type'>Ноутбук</div>
                         <div class='name'>Huawei MateBook D 15</div>
@@ -42,8 +67,8 @@
                         <div class='price'>46 790 руб.</div>
                     </div>
                 </li>
-                <li class="two">Телефон телефон phone Phone ntktajy Ntktajy VIVO Y53s 6/128Gb Смартфон смартфон айфон Айфон апл Апл fqajy Fqajy fqajy
-                    <div class='borders_catalog' style="color: black">
+                <li class="borders_catalog phone two">Телефон телефон phone Phone ntktajy Ntktajy VIVO Y53s 6/128Gb cvfhnajy Cvfhnajy Смартфон смартфон айфон Айфон апл Апл fqajy Fqajy fqajy
+                    <div class='borders_catalog phone' style="color: black">
                         <div class='img_border'><img src='images/Phone1.jpg' height='160px'></div> 
                         <div class='type'>Смартфон</div>
                         <div class='name'>VIVO Y53s 6/128Gb</div>
@@ -51,8 +76,8 @@
                         <div class='price'>21 999 руб.</div>
                     </div>
                 </li>
-                <li class="three"> ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Kingston SA400S37/240G кингстон rbyucnjy са
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog ssd three"> ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Kingston SA400S37/240G кингстон rbyucnjy са
+                    <div class='borders_catalog ssd' style="color: black">
                         <div class='img_border'><img src='images/Disk1.jpg' height='160px'></div> 
                         <div class='type'>SSD накопитель</div>
                         <div class='name'>Kingston SA400S37/240G</div>
@@ -60,8 +85,8 @@
                         <div class='price'>3790 руб.</div>
                     </div>
                 </li>
-                <li class="four">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR Neo ршзук мк тущ хайпер Хайпер [fqgth] {fqgth}
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog vertual_reality four">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR Neo ршзук мк тущ хайпер Хайпер [fqgth] {fqgth}
+                    <div class='borders_catalog vertual_reality' style="color: black">
                         <div class='img_border'><img src='images/vertual_reality_helmet1.jpg' height='160px'></div> 
                         <div class='type'>Очки виртуальной реальности</div>
                         <div class='name'>HIPER VR Neo</div>
@@ -69,8 +94,8 @@
                         <div class='price'>1290 руб.</div>
                     </div>
                 </li>
-                <li class="five">Телефон телефон phone Phone ntktajy Ntktajy Samsung Galaxy S20 FE Смартфон смартфон самсунг Самсунг cfvceyu Cfvceyu
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog phone five">Телефон телефон phone Phone ntktajy Ntktajy Samsung Galaxy S20 FE cvfhnajy Cvfhnajy Смартфон смартфон самсунг Самсунг cfvceyu Cfvceyu
+                    <div class='borders_catalog phone' style="color: black">
                         <div class='img_border'><img src='images/Phone2jpg.webp' height='160px'></div> 
                         <div class='type'>Смартфон</div>
                         <div class='name'>Samsung Galaxy S20 FE</div>
@@ -78,8 +103,8 @@
                         <div class='price'>42999 руб.</div>   
                     </div>
                 </li>
-                <li class="six"> ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Kingston NV1 SNVS/500G 500ГБ кингстон rbyucnjy са
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog ssd six"> ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Kingston NV1 SNVS/500G 500ГБ кингстон rbyucnjy са
+                    <div class='borders_catalog ssd' style="color: black">
                         <div class='img_border'><img src='images/Disk4.jpg' height='137px' width="220px"></div> 
                         <div class='type'>SSD накопитель</div>
                         <div class='name'>Kingston NV1 SNVS/500G 500ГБ</div>
@@ -87,8 +112,8 @@
                         <div class='price'>5890 руб.</div>  
                     </div>
                 </li>
-                <li class="seven"> ghjwtccjh Процессор процессор Ghjwtccjh интел Интел byntk Intel intel Byntk Intel Core i3 10100F
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog cpu seven"> ghjwtccjh Процессор процессор Ghjwtccjh интел Интел byntk Intel intel Byntk Intel Core i3 10100F
+                    <div class='borders_catalog cpu' style="color: black">
                         <div class='img_border'><img src='images/cpu1.jpg' height='160px'></div> 
                         <div class='type'>Процессор</div>
                         <div class='name'>Intel Core i3 10100F</div>
@@ -96,8 +121,8 @@
                         <div class='price'>11890 руб.</div>  
                     </div>
                 </li>
-                <li class="eight">Телефон телефон phone Phone ntktajy Ntktajy Xiaomi Redmi Note 10 Pro Смартфон смартфон сяоми Сяоми ксяоми Ксяоми редми Редми czjvb Czjvb
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog phone eight">Телефон телефон phone Phone ntktajy Ntktajy Xiaomi Redmi Note 10 Pro cvfhnajy Cvfhnajy Смартфон смартфон сяоми Сяоми ксяоми Ксяоми редми
+                    <div class='borders_catalog phone' style="color: black">
                         <div class='img_border'><img src='images/Phone3.webp' height='160px'></div> 
                         <div class='type'>Смартфон</div>
                         <div class='name'>Xiaomi Redmi Note 10 Pro</div>
@@ -105,8 +130,8 @@
                         <div class='price'>28999 руб.</div> 
                     </div>
                 </li>
-                <li class="nine">Телефон телефон phone Phone ntktajy Ntktajy Apple iPhone 11 Смартфон смартфон айфон Айфон апл Апл fqajy Fqajy fqajy
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog phone nine">Телефон телефон phone Phone ntktajy Ntktajy Apple iPhone 11 cvfhnajy Cvfhnajy Смартфон смартфон айфон Айфон апл Апл fqajy Fqajy fqajy
+                    <div class='borders_catalog phone' style="color: black">
                         <div class='img_border'><img src='images/Phone4.webp' height='160px'></div> 
                         <div class='type'>Смартфон</div>
                         <div class='name'>Apple iPhone 11</div>
@@ -114,8 +139,8 @@
                         <div class='price'>56499 руб.</div> 
                     </div>
                 </li>
-                <li class="ten">Телефон телефон phone Phone ntktajy Ntktajy Apple iPhone 13 Pro Max Смартфон смартфон айфон Айфон апл Апл fqajy Fqajy fqajy
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog phone ten">Телефон телефон phone Phone ntktajy Ntktajy Apple iPhone 13 Pro Max cvfhnajy Cvfhnajy Смартфон смартфон айфон Айфон апл Апл fqajy Fqajy fqajy
+                    <div class='borders_catalog phone' style="color: black">
                         <div class='img_border'><img src='images/Phone5.webp' height='160px'></div> 
                         <div class='type'>Смартфон</div>
                         <div class='name'>Apple iPhone 13 Pro Max</div>
@@ -123,8 +148,8 @@
                         <div class='price'>146999 руб.</div> 
                     </div>
                 </li>
-                <li class="eleven">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 16 хуавей Хуавей [efdtq] {eqdtq}
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog laptop eleven">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 16 хуавей Хуавей [efdtq] {eqdtq}
+                    <div class='borders_catalog laptop' style="color: black">
                         <div class='img_border'><img src='images/laptop2.jpg' height='160px'></div> 
                         <div class='type'>Ноутбук</div>
                         <div class='name'>Huawei MateBook D 16</div>
@@ -132,8 +157,8 @@
                         <div class='price'>73790 руб.</div> 
                     </div>
                 </li>
-                <li class="twelve">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 14 хуавей Хуавей [efdtq] {eqdtq}
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog laptop twelve">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 14 хуавей Хуавей [efdtq] {eqdtq}
+                    <div class='borders_catalog laptop' style="color: black">
                         <div class='img_border'><img src='images/laptop3.jpg' height='160px'></div> 
                         <div class='type'>Ноутбук</div>
                         <div class='name'>Huawei MateBook D 14</div>
@@ -141,8 +166,8 @@
                         <div class='price'>47690 руб.</div> 
                     </div>
                 </li>
-                <li class="thirteen">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Lenovo IP Gaming 3 15ACH6 lenevo леново Леново ktyjdj Ktyjdj
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog laptop thirteen">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Lenovo IP Gaming 3 15ACH6 lenevo леново Леново ktyjdj Ktyjdj
+                    <div class='borders_catalog laptop' style="color: black">
                         <div class='img_border'><img src='images/laptop4.jpg' height='160px'></div> 
                         <div class='type'>Ноутбук</div>
                         <div class='name'>Lenovo IP Gaming 3 15ACH6</div>
@@ -150,8 +175,8 @@
                         <div class='price'>83990 руб.</div>   
                     </div>
                 </li>
-                <li class="fourteen">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Honor MagicBook X15 honor хонор Хонор [jyjh {jyjh}]
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog laptop fourteen">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Honor MagicBook X15 honor хонор Хонор [jyjh {jyjh}]
+                    <div class='borders_catalog laptop' style="color: black">
                         <div class='img_border'><img src='images/laptop5.jpg' height='160px'></div> 
                         <div class='type'>Ноутбук</div>
                         <div class='name'>Honor MagicBook X15</div>
@@ -159,8 +184,8 @@
                         <div class='price_hit'>59990 руб.</div>
                     </div>
                 </li>
-                <li class="fifteen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VRQ+ ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog vertual_reality fifteen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VRQ+ ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
+                    <div class='borders_catalog vertual_reality' style="color: black">
                         <div class='img_border'><img src='images/vertual_reality_helmet2.jpg.jpg' width='240px' height='160px'></div> 
                         <div class='type'>Очки виртуальной реальности</div>
                         <div class='name'>HIPER VRQ+</div>
@@ -168,8 +193,8 @@
                         <div class='price_hit'>1890 руб.</div>   
                     </div>
                 </li>
-                <li class="sixteen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VRR ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog vertual_reality ixteen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VRR ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
+                    <div class='borders_catalog vertual_reality' style="color: black">
                         <div class='img_border'><img src='images/vertual_reality_helmet3.jpg' height='160px'></div> 
                         <div class='type'>Очки виртуальной реальности</div>
                         <div class='name'>HIPER VRR</div>
@@ -177,8 +202,8 @@
                         <div class='price_hit'>890 руб.</div> 
                     </div>
                 </li>
-                <li class="seventeen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR VRW ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog vertual_reality seventeen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR VRW ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
+                    <div class='borders_catalog vertual_reality' style="color: black">
                         <div class='img_border'><img src='images/vertual_reality_helmet4.jpg' height='160px'></div> 
                         <div class='type'>Очки виртуальной реальности</div>
                         <div class='name'>HIPER VR VRW</div>
@@ -186,8 +211,8 @@
                         <div class='price_hit'>1590 руб.</div>  
                     </div>
                 </li>
-                <li class="eighteen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR Max ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog vertual_reality eighteen">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR Max ршзук мк тущ hiper хайпер Хайпер [fqgth] {fqgth}
+                    <div class='borders_catalog vertual_reality' style="color: black">
                         <div class='img_border'><img src='images/vertual_reality_helmet5.jpg' height='160px'></div> 
                         <div class='type'>Очки виртуальной реальности</div>
                         <div class='name'>HIPER VR Max</div>
@@ -195,8 +220,8 @@
                         <div class='price_stock'>3490 руб.</div>  
                     </div>
                 </li>
-                <li class="nineteen">ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Crucial CT240BX500SSD1 кингстон rbyucnjy са
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog ssd nineteen">ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Crucial CT240BX500SSD1 кингстон rbyucnjy са
+                    <div class='borders_catalog ssd' style="color: black">
                         <div class='img_border'><img src='images/Disk2.jpg' height='160px'></div> 
                         <div class='type'>SSD накопитель</div>
                         <div class='name'>Crucial CT240BX500SSD1</div>
@@ -204,8 +229,8 @@
                         <div class='price_stock'>3690 руб.</div> 
                     </div>
                 </li>
-                <li class="twenty">ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Silicon Power SP128GBSS3A5 кингстон rbyucnjy са
-                    <div class='borders_catalog new_three_catalog' style="color: black">
+                <li class="borders_catalog ssd twenty">ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Silicon Power SP128GBSS3A5 кингстон rbyucnjy са
+                    <div class='borders_catalog ssd' style="color: black">
                         <div class='img_border'><img src='images/Disk3.jpg' height='160px'></div> 
                         <div class='type'>SSD накопитель</div>
                         <div class='name'>Silicon Power SP128GBSS3A5</div>

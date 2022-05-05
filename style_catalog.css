@@ -168,7 +168,9 @@ li.one {
     top: -1px;
 }
 
-.hide {display: none;}
+.hide {
+    display: none;
+}
 
 .name_categories {
     position: relative;

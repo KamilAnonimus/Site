@@ -311,8 +311,9 @@ body {
   color: #df8620;
 }
 .img_border {
-margin-top: 30px;
-margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-align: center;
 }
 .new_two {left: 302px;top:-361px;}
 .new_three {left: 610px;top:-763px;}
@@ -451,4 +452,4 @@ margin-left: 20px;
 
 .homepage-down {height: 2350px;}
 
-.img_border {text-align: center;}
+a {text-decoration: none;}

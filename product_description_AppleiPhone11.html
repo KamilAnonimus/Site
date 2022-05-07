@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
+    <title>Electronic shop</title>
+</head>
+<body>
+    <div class='OutsideTheContainerCatalog'>
+        <div class='upPanel'></div>
+    </div>
+    <header class='container'>
+        <div class='header'>
+            <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
+            <div class='text1'>Интернет магазин техники и электроники</div>
+            <div class='location'><img src='images/location.jpg' height='14px'></div>
+            <div class='logo'><a href='main_page.html'><img src='images/logo.jpg' height='90px'></a></div>
+            <h1 class="name">Apple iPhone 11</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
+        </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/Phone4.webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone4(1).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone4(2).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone4(3).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone4(4).jpg" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                    <li><a data-slide-index="0"><img src="images/Phone4.webp" alt=""></a></li>
+                    <li><a data-slide-index="1"><img src="images/Phone4(1).jpg" alt=""></a></li>
+                    <li><a data-slide-index="2"><img src="images/Phone4(2).jpg" alt=""></a></li>
+                    <li><a data-slide-index="3"><img src="images/Phone4(3).jpg" alt=""></a></li>
+                    <li><a data-slide-index="4"><img src="images/Phone4(4).jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>Описание</h2>
+                <div>Потрясающей производительностью обладает смартфон APPLE iPhone 11 128Гб, MHDH3RU/A. В его основной аппаратной части находится процессор Apple A13 Bionic и оперативная память объёмом 4 Гб. Это позволяет получить безграничные возможности при работе с различными приложениями и гарантирует быстродействие системы.
+                    Корпус модели выполнен из металла, имеющего хорошую устойчивость к внешним повреждениям, а также влаге и пыли. Стильный смартфон APPLE iPhone 11 128Гб, MHDH3RU/A обладает экраном IPS диагональю 6,1 дюйма для отображения яркой, насыщенной цветом картинки в разрешении 1792x828 пикселей. Система камер 12+12 Мп, сочетающая в себе широкоугольную и сверхширокоугольную камеры, отличается большим спектром возможностей, позволяя создавать фотографии высокого качества. Для длительной автономной работы модель имеет ёмкую аккумуляторную батарею.</div>
+                <h2>Характеристики</h2>
+                <div>
+                    Операционная система<br>
+                    Дисплей<br>
+                    Разрешение дисплея<br>
+                    Процессор<br>
+                    Объем встроенной памяти<br>
+                    Класс<br>
+                    Тип корпуса<br>
+                    Технология GSM 850<br>
+                    Технология GSM 900/1800<br>
+                </div>
+                <div class="characteristic_value">
+                    iPhone iOS 13<br>
+                    6.1", IPS<br>
+                    1792x828<br>
+                    Apple A13 Bionic<br>
+                    128 ГБ<br>
+                    смартфон<br>
+                    моноблок<br>
+                    есть<br>
+                    есть<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
+</body>
+</html>

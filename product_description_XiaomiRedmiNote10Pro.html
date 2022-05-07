@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
+    <title>Electronic shop</title>
+</head>
+<body>
+    <div class='OutsideTheContainerCatalog'>
+        <div class='upPanel'></div>
+    </div>
+    <header class='container'>
+        <div class='header'>
+            <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
+            <div class='text1'>Интернет магазин техники и электроники</div>
+            <div class='location'><img src='images/location.jpg' height='14px'></div>
+            <div class='logo'><a href='main_page.html'><img src='images/logo.jpg' height='90px'></a></div>
+            <h1 class="name">Xiaomi Redmi Note 10 Pro</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
+        </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/Phone3.webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone3(1).webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone3(2).webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone3(3).webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone3(4).webp" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                    <li><a data-slide-index="0"><img src="images/Phone3.webp" alt=""></a></li>
+                    <li><a data-slide-index="1"><img src="images/Phone3(1).webp" alt=""></a></li>
+                    <li><a data-slide-index="2"><img src="images/Phone3(2).webp" alt=""></a></li>
+                    <li><a data-slide-index="3"><img src="images/Phone3(3).webp" alt=""></a></li>
+                    <li><a data-slide-index="4"><img src="images/Phone3(4).webp" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>Описание</h2>
+                <div>Смартфон Xiaomi Redmi Note 10 Pro в стеклянном корпусе объединил возможности топовых устройств, которыми останутся довольны самые прогрессивные блогеры и геймеры. Для этого в основу его работоспособности положен процессор Qualcomm Snapdragon 732G на 8 ядер, ускоритель Adreno 618 и сразу 8 ГБ оперативной памяти.
+                    Любите снимать тонны видео и фото? Не проблема, хранить их получится на 128 ГБ встроенной памяти устройства. Основная камера состоит из 4 модулей, а ее разрешение достигает показателя 108+8+5+2 Мп. Смартфон Xiaomi Redmi Note 10 Pro отлично держит заряд и быстро пополняет его ресурс в случае необходимости.</div>
+                <h2>Характеристики</h2>
+                <div>
+                    Тип<br>
+                    Модель<br>
+                    Год релиза<br>
+                    Цвет задней панели<br>
+                    Цвет передней панели<br>
+                    Цвет граней<br>
+                    Цвет, заявленный производителем<br>
+                    Поддержка сетей 2G<br>
+                    Поддержка сетей 3G<br>
+                </div>
+                <div class="characteristic_value">
+                    смартфон<br>
+                    Xiaomi Redmi Note 10 Pro<br>
+                    2021<br>
+                    серый<br>
+                    черный<br>
+                    серый<br>
+                    серый оникс<br>
+                    GSM 900, GSM 1800<br>
+                    WCDMA 2100, WCDMA 900, WCDMA 1900<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
+</body>
+</html>

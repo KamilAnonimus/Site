@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
+    <title>Electronic shop</title>
+</head>
+<body>
+    <div class='OutsideTheContainerCatalog'>
+        <div class='upPanel'></div>
+    </div>
+    <header class='container'>
+        <div class='header'>
+            <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
+            <div class='text1'>Интернет магазин техники и электроники</div>
+            <div class='location'><img src='images/location.jpg' height='14px'></div>
+            <div class='logo'><a href='main_page.html'><img src='images/logo.jpg' height='90px'></a></div>
+            <h1 class="name">Kingston SA400S37/240G</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
+        </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/Disk1.jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk1(1).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk1(2).webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk1(3).webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk1(4).webp" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                    <li><a data-slide-index="0"><img src="images/Disk1.jpg" alt=""></a></li>
+                    <li><a data-slide-index="1"><img src="images/Disk1(1).jpg" alt=""></a></li>
+                    <li><a data-slide-index="2"><img src="images/Disk1(2).webp" alt=""></a></li>
+                    <li><a data-slide-index="3"><img src="images/Disk1(3).webp" alt=""></a></li>
+                    <li><a data-slide-index="4"><img src="images/Disk1(4).webp" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>Описание</h2>
+                <div>SSD-накопитель Kingston A400 имеет достаточно большую емкость (240 ГБ). Такого объема достаточно не только для установки операционной системы, но и для множества программ, а, возможно, и нескольких игр. Использование SSD сделает скорость работы системы в 10 раз выше, чем она была бы с HDD. Запуск компьютера будет занимать считанные секунды, файлы будут открываться и сохраняться быстрее. Ускорится даже загрузка файлов из Интернет, так как они будут записываться на накопитель практически мгновенно.
+                    Kingston A400 работает на базе контроллера Phison PS3111-S11 и использует чипы памяти TLC. Для подключения к материнской плате используется SATA III, питание подается через разъем 15 pin.</div>
+                <h2>Характеристики</h2>
+                <div>
+                    Тип жесткого диска<br>
+                    Объем накопителя<br>
+                    Форм-фактор<br>
+                    Интерфейс<br>
+                    Максимальная скорость чтения<br>
+                    Максимальная скорость записи<br>
+                    Время наработки на отказ<br>
+                    Тип памяти NAND<br>
+                    Ресурс TBW<br>
+                </div>
+                <div class="characteristic_value">
+                    SSD<br>
+                    480 ГБ<br>
+                    2.5"<br>
+                    SATA III<br>
+                    500 МБ/с<br>
+                    450 МБ/с<br>
+                    1000000 ч<br>
+                    3D NAND<br>
+                    160 ТБ<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
+</body>
+</html>

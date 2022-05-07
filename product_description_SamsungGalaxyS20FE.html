@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
+    <title>Electronic shop</title>
+</head>
+<body>
+    <div class='OutsideTheContainerCatalog'>
+        <div class='upPanel'></div>
+    </div>
+    <header class='container'>
+        <div class='header'>
+            <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
+            <div class='text1'>Интернет магазин техники и электроники</div>
+            <div class='location'><img src='images/location.jpg' height='14px'></div>
+            <div class='logo'><a href='main_page.html'><img src='images/logo.jpg' height='90px'></a></div>
+            <h1 class="name">Samsung Galaxy S20 FE</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
+        </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/Phone2jpg.webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone2(1).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone2(2).webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone2(3).webp" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone2(4).webp" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                    <li><a data-slide-index="0"><img src="images/Phone2jpg.webp" alt=""></a></li>
+                    <li><a data-slide-index="1"><img src="images/Phone2(1).jpg" alt=""></a></li>
+                    <li><a data-slide-index="2"><img src="images/Phone2(2).webp" alt=""></a></li>
+                    <li><a data-slide-index="3"><img src="images/Phone2(3).webp" alt=""></a></li>
+                    <li><a data-slide-index="4"><img src="images/Phone2(4).webp" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>Описание</h2>
+                <div>Этот телефон для максималистов. Идя навстречу вашим пожеланиям, Samsung создали смартфон, который способен на все! Если вам нравится фотография, гейминг или вы любите часто делиться своими мыслями и впечатлениями в социальных сетях, то этот телефон поможет вам реализовать всё, что вы захотите. 6,5 - дюймовый Infinity-O экран с трех сторон обрамлен практически невидимой рамкой, а в верхней части находится миниатюрное отверстие фронтальной камеры. На большом экране комфортно играть, стримить, общаться в режиме видеозвонков и просто развлекаться. Тройная камера позволит вам легко получать снимки профессионального качества. Фотографируйте на широкоугольную камеру, расширяйте поле зрения используя ультраширокогоугольную камеру или приближайте изображение с помощью 3-кратного оптического зума телефото камеры.</div>
+                <h2>Характеристики</h2>
+                <div>
+                    Класс<br>
+                    Тип корпуса<br>
+                    Технология GSM 850<br>
+                    Технология GSM 900/1800<br>
+                    Технология GSM 1900<br>
+                    Технология 3G<br>
+                    Технология 4G (LTE)<br>
+                    Количество SIM-карт<br>
+                    Тип SIM-карты<br>
+                </div>
+                <div class="characteristic_value">
+                    смартфон<br>
+                    моноблок<br>
+                    есть<br>
+                    есть<br>
+                    есть<br>
+                    есть<br>
+                    есть<br>
+                    2SIM<br>
+                    нано-SIM<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
+</body>
+</html>

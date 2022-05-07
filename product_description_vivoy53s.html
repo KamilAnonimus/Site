@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
     <title>Electronic shop</title>
 </head>
 <body>
@@ -17,6 +20,70 @@
             <div class='location'><img src='images/location.jpg' height='14px'></div>
             <div class='logo'><a href='main_page.html'><img src='images/logo.jpg' height='90px'></a></div>
             <h1 class="name">VIVO Y53s 6/128Gb</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
         </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/Phone1.jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone1(1).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone1(2).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone1(3).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Phone1(4).jpg" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                    <li><a data-slide-index="0"><img src="images/Phone1.jpg" alt=""></a></li>
+                    <li><a data-slide-index="1"><img src="images/Phone1(1).jpg" alt=""></a></li>
+                    <li><a data-slide-index="2"><img src="images/Phone1(2).jpg" alt=""></a></li>
+                    <li><a data-slide-index="3"><img src="images/Phone1(3).jpg" alt=""></a></li>
+                    <li><a data-slide-index="4"><img src="images/Phone1(4).jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>Описание</h2>
+                <div>Смартфон Vivo Y53S оснащен 6.58-дюймовым дисплеем с разрешением Full HD+ (2408x1080), обеспечивая превосходное изображение во время игр и просмотра видео. Для снижения нагрузки на глаза в смартфоне предусмотрена функция фильтрации вредного синего света.
+                    С технологией FlashCharge смартфон Vivo Y53S заряжается всего за 15 минут - это очень удобно, если утром вы спешите поскорее выйти из дома. До 70% модель заряжается всего за 41 минуту - на 37% быстрее, чем с быстрой зарядкой мощностью 18 Вт.
+                    Аккумулятор невероятной емкости 5000 мАч и технологии энергосбережения обеспечивают до 14.3 часов просмотра онлайн видео в HD-качестве или 7.05 часов ресурсоемких игр от одной полной зарядки. Функция обратной зарядки поможет вам зарядить и другие устройства, даже если вы окажетесь вне дома.
+                    Эксклюзивный режим Multi-Turbo 5.0 оптимизирует основные сцены, уменьшая подвисания и задержки в играх, а также отдает играм приоритет ресурсов процессора и встроенной памяти, особенно когда в фоновом режиме работает много других приложений.</div>
+                <h2>Характеристики</h2>
+                <div>
+                    Класс<br>
+                    Тип корпуса<br>
+                    Технология GSM 850<br>
+                    Технология GSM 900/1800<br>
+                    Технология GSM 1900<br>
+                    Технология 3G<br>
+                    Технология 4G (LTE)<br>
+                    Количество SIM-карт<br>
+                    Тип SIM-карты<br>
+                </div>
+                <div class="characteristic_value">
+                    смартфон<br>
+                    моноблок<br>
+                    есть<br>
+                    есть<br>
+                    есть<br>
+                    есть<br>
+                    есть<br>
+                    2SIM<br>
+                    нано-SIM<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
 </body>
 </html>

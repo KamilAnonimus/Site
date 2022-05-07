@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
+    <title>Electronic shop</title>
+</head>
+<body>
+    <div class='OutsideTheContainerCatalog'>
+        <div class='upPanel'></div>
+    </div>
+    <header class='container'>
+        <div class='header'>
+            <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
+            <div class='text1'>Интернет магазин техники и электроники</div>
+            <div class='location'><img src='images/location.jpg' height='14px'></div>
+            <div class='logo'><a href='main_page.html'><img src='images/logo.jpg' height='90px'></a></div>
+            <h1 class="name">Intel Core i3 10100F</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
+        </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/cpu1.jpg" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                </ul>
+            </div>
+            <div class="info">       
+                <h2>Описание</h2>
+                <div>Четырехъядерный процессор INTEL Core i3 10100F имеет ядро Comet Lake и обеспечивает работу в 8 потоках. Функционирует с частотой 4.3 ГГц в режиме Turbo, используя L3 кэш объемом 6 Мб. В устройстве используется заблокированный множитель. Шина обеспечивает пропускную способность в 8 GT/s. Поддерживается память DDR4, объем которой может быть до 128 Гб.
+                    Процессор INTEL Core i3 10100F корректно работает при температуре до 100 градусов. Его тепловыделение составляет всего 65 Вт. Применяется также контроллер PCI Express версии 3.0. Графическое ядро в процессоре отсутствует.</div>
+                <h2>Характеристики</h2>
+                <div>
+                    Ядро<br>
+                    Гнездо процессора<br>
+                    Количество ядер<br>
+                    Количество потоков<br>
+                    L3 кэш<br>
+                    Технологический процесс<br>
+                    Тип поставки<br>
+                    Максимальный объем памяти<br>
+                    Тип памяти<br>
+                </div>
+                <div class="characteristic_value">
+                    Comet Lake<br>
+                    LGA 1200<br>
+                    4<br>
+                    8<br>
+                    6MB<br>
+                    14 нм<br>
+                    OEM<br>
+                    128 ГБ<br>
+                    DDR4<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
+</body>
+</html>

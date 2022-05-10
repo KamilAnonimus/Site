@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
+    <title>Electronic shop</title>
+</head>
+<body>
+    <div class='OutsideTheContainerCatalog'>
+        <div class='upPanel'></div>
+    </div>
+    <header class='container'>
+        <div class='header'>
+            <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
+            <div class='text1'>Интернет магазин техники и электроники</div>
+            <div class='location'><img src='images/location.jpg' height='14px'></div>
+            <div class='logo'><a href='index.html'><img src='images/logo.jpg' height='90px'></a></div>
+            <h1 class="name">Silicon Power SP128GBSS3A5</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
+        </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/Disk3.jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk3(1).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk3(2).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk3(3).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/Disk3(4).jpg" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                    <li><a data-slide-index="0"><img src="images/Disk3.jpg" alt=""></a></li>
+                    <li><a data-slide-index="1"><img src="images/Disk3(1).jpg" alt=""></a></li>
+                    <li><a data-slide-index="2"><img src="images/Disk3(2).jpg" alt=""></a></li>
+                    <li><a data-slide-index="3"><img src="images/Disk3(3).jpg" alt=""></a></li>
+                    <li><a data-slide-index="4"><img src="images/Disk3(4).jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>Описание</h2>
+                <div>SSD-накопитель SILICON POWER Ace A55 SP128GBSS3A55S25 емкостью 128 Гб подойдет для оптимизации работы любого компьютера или ноутбука.
+                    Высокая скорость чтения и записи – 550 Мб/с и 420 Мб/с – отлично послужит при загрузке программ или систем. Так, дистрибутивы на базе Linux запускаются за 5-10 секунд.
+                    Один плохой блок на диске способен испортить все данные или помешать работе компьютера целиком. Поэтому накопитель оснащен технологией Bad Block Management, которая постоянно мониторит состояние и меняет «битые» участки на SSD. Этим удается достичь высокой надежности самого диска. Показатель работы на отказ у него 1 500 000 часов.
+                    Накопитель очень тонкий, всего 7 мм, поэтому поместится в любой корпус ноутбука. Отсутствие движущихся частей позволяет диску работать даже в самых агрессивных условиях.</div>
+                <h2>Характеристики</h2>
+                <div>
+                    Тип жесткого диска<br>
+                    Объем накопителя<br>
+                    Форм-фактор<br>
+                    Интерфейс<br>
+                    Максимальная скорость чтения<br>
+                    Максимальная скорость записи<br>
+                    Время наработки на отказ<br>
+                    Тип памяти NAND<br>
+                    Толщина<br>
+                </div>
+                <div class="characteristic_value">
+                    SSD<br>
+                    128 ГБ<br>
+                    2.5"<br>
+                    SATA III<br>
+                    550 МБ/с<br>
+                    420 МБ/с<br>
+                    1500000 ч<br>
+                    3D NAND TLC<br>
+                    7 мм<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
+</body>
+</html>

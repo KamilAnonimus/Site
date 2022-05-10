@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='product_description.css'>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
+    <script src=""></script>
+    <title>Electronic shop</title>
+</head>
+<body>
+    <div class='OutsideTheContainerCatalog'>
+        <div class='upPanel'></div>
+    </div>
+    <header class='container'>
+        <div class='header'>
+            <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
+            <div class='text1'>Интернет магазин техники и электроники</div>
+            <div class='location'><img src='images/location.jpg' height='14px'></div>
+            <div class='logo'><a href='index.html'><img src='images/logo.jpg' height='90px'></a></div>
+            <h1 class="name">HIPER VRQ+</h1>
+            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
+        </div>
+        <div class="homepage">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/vertual_reality_helmet2.jpg.jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/vertual_reality_helmet2(1).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/vertual_reality_helmet2(2).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/vertual_reality_helmet2(3).jpg" alt="" height="450px" width="370px"></li>
+                    <li><img src="images/vertual_reality_helmet2(4).jpg" alt="" height="450px" width="370px"></li>
+                </ul>
+            </div>
+            <div class="slider_pager">
+                <ul>
+                    <li><a data-slide-index="0"><img src="images/vertual_reality_helmet2.jpg.jpg" alt=""></a></li>
+                    <li><a data-slide-index="1"><img src="images/vertual_reality_helmet2(1).jpg" alt=""></a></li>
+                    <li><a data-slide-index="2"><img src="images/vertual_reality_helmet2(2).jpg" alt=""></a></li>
+                    <li><a data-slide-index="3"><img src="images/vertual_reality_helmet2(3).jpg" alt=""></a></li>
+                    <li><a data-slide-index="4"><img src="images/vertual_reality_helmet2(4).jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>Описание</h2>
+                <div>Вы хотите посетить невероятные миры, а может быть полетать на драконе? Тогда вам точно необходимы очки виртуальной реальности HIPER VR VRQ+. Они имеют асферические акриловые линзы диаметром 42 мм, что позволяет исключить возможность появления каких-либо искажений изображения. Применяемый материал обеспечивает невероятно долгий срок службы, линзы со временем не темнеют и не затираются. Использовать аксессуар сможет любой человек, так как в нем можно изменять межфокусное расстояние.
+                    Для погружения в поразительные миры с очками виртуальной реальности HIPER VR VRQ+ достаточно иметь смартфоны, работающие на операционных системах iOS или Android с диагональю экрана от 4,3 до 6 дюймов. Надежно зафиксировать телефон на гаджете позволяет специальная защелка, которая исключает его выпадение. Глубокое погружение обеспечивают амбушюры из искусственной кожи, которые имеются по краю маски, а регулируемые ремешки дают возможность подобрать оптимальные размеры практически для любой головы.
+                    </div>
+                <h2>Характеристики</h2>
+                <div>
+                    Совместимые устройства<br>
+                    Цвет корпуса<br>
+                    Размеры<br>
+                    Вес<br>
+                    Вес упаковки (ед)<br>
+                    Гарантия<br>
+                    Страна производитель<br>
+                    Способ вывода изображения<br>
+                    Диагональ матрицы<br>
+                </div>
+                <div class="characteristic_value">
+                    смартфоны на iOS и Android с дисплеем 4.3 – 6"<br>
+                    черный<br>
+                    202 х 100 х 140 мм<br>
+                    380 грамм<br>
+                    0.71 кг<br>
+                    12 мес.<br>
+                    Китай<br>
+                    экран смартфона<br>
+                    зависит от смартфона<br>
+                </div>
+                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
+                <div class="basket"><h4>КОРЗИНА</h4></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slider ul').bxSlider({
+                    pagerCustom: '.slider_pager ul',
+		            controls: true,  
+		            auto: false,
+		            minSlides: 1,
+		            maxSlides: 1
+                });
+            });
+        </script>
+</body>
+</html>

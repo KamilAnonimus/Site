@@ -161,7 +161,8 @@ body {
 .basket {
   position: absolute;
   margin-left: 1160px;
-  top: 200px;
+  top: 190px;
+  height: 45px;
 }
   
 .tablet {
@@ -453,3 +454,15 @@ body {
 .homepage-down {height: 2350px;}
 
 a {text-decoration: none;}
+
+.sum     {
+  left: 26px;
+  bottom: 50px;
+  position: relative;
+  width: 20px;
+  text-align: center;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 20px;
+  height: 17px;
+}

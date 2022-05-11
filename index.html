@@ -3,10 +3,11 @@
         <head>
             <meta charset='UTF-8'>
             <meta name='viewport' content='width=device-width'>
+            <script type='text/javascript' src='engine0/jquery.js'></script>
+            <script type="text/javascript" src="index.js"></script>
             <link rel='stylesheet' href='index.css'>
-            <title>Electronic shop</title>
 	        <link rel='stylesheet' type='text/css' href='engine0/style.css'/>
-	        <script type='text/javascript' src='engine0/jquery.js'></script>
+            <title>Electronic shop</title>
         </head>
         <body>
             <div id='wowslider_engine' style='display: none;'></div>
@@ -38,7 +39,9 @@
                             <div class='panel five'>О нас</div>
                             <div class='panel six'>Отзывы</div>
                             <div class='panel seven'>Контакты</div>
-                            <div class='basket'><img src='images/basket.png' height='25px'></div>
+                            <a href="basket.html"><div class='basket'><img src='images/basket.png' height='45px'>
+                                <div class="sum">0</div>
+                            </div></a>
                         </div>
                     </div>
                 <div class='homepage'>
@@ -88,7 +91,7 @@
                                 <div class='img_border'><img src='images/Phone1.jpg' height='160px'></div> 
                                 <div class='type'>Смартфон</div>
                                 <div class='name'>VIVO Y53s 6/128Gb</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="vivoy53s">В КОРЗИНУ</div>
                                 <div class='price'>21 999 руб.</div>
                             </div>
                             <div class='borders new_two'><a href="product_description_HuaweiMateBookD15.html">
@@ -96,7 +99,7 @@
                                 <div class='img_border'><img src='images/laptop1.jpg' height='160px' width="250px"></div> 
                                 <div class='type'>Ноутбук</div>
                                 <div class='name'>Huawei MateBook D 15</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="HuaweiMateBookD15">В КОРЗИНУ</div>
                                 <div class='price'>46 790 руб.</div>
                             </div>
                             <div class='borders new_three'><a href="product_description_HIPERVRNeo.html">
@@ -104,7 +107,7 @@
                                 <div class='img_border'><img src='images/vertual_reality_helmet1.jpg' height='160px'></div> 
                                 <div class='type'>Очки виртуальной реальности</div>
                                 <div class='name'>HIPER VR Neo</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="HIPERVRNeo">В КОРЗИНУ</div>
                                 <div class='price'>1290 руб.</div>
                             </div>
                             <div class='borders new_four'><a href="product_description_SamsungGalaxyS20FE.html">
@@ -112,7 +115,7 @@
                                 <div class='img_border'><img src='images/Phone2jpg.webp' height='160px'></div> 
                                 <div class='type'>Смартфон</div>
                                 <div class='name'>Samsung Galaxy S20 FE</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="SamsungGalaxyS20FE">В КОРЗИНУ</div>
                                 <div class='price'>42999 руб.</div>
                             </div>
                             <div class='borders new_five'><a href="product_description_KingstonSA400S37240G.html">
@@ -120,7 +123,7 @@
                                 <div class='img_border'><img src='images/Disk1.jpg' height='160px'></div> 
                                 <div class='type'>SSD накопитель</div>
                                 <div class='name'>Kingston SA400S37/240G</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="KingstonSA400S37240G">В КОРЗИНУ</div>
                                 <div class='price'>3790 руб.</div>
                             </div>
                             <div class='borders new_six'><a href="product_description_IntelCorei310100F.html">
@@ -128,7 +131,7 @@
                                 <div class='img_border'><img src='images/cpu1.jpg' height='160px'></div> 
                                 <div class='type'>Процессор</div>
                                 <div class='name'>Intel Core i3 10100F</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="IntelCorei310100F">В КОРЗИНУ</div>
                                 <div class='price'>11890 руб.</div>
                             </div>
                             <div class='borders new_seven'><a href="product_description_XiaomiRedmiNote10Pro.html">
@@ -136,7 +139,7 @@
                                 <div class='img_border'><img src='images/Phone3.webp' height='160px'></div> 
                                 <div class='type'>Смартфон</div>
                                 <div class='name'>Xiaomi Redmi Note 10 Pro</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="XiaomiRedmiNote10Pro">В КОРЗИНУ</div>
                                 <div class='price'>28999 руб.</div>
                             </div>
                             <div class='borders new_eight'><a href="product_description_AppleiPhone11.html">
@@ -144,7 +147,7 @@
                                 <div class='img_border'><img src='images/Phone4.webp' height='160px'></div> 
                                 <div class='type'>Смартфон</div>
                                 <div class='name'>Apple iPhone 11</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="AppleiPhone11">В КОРЗИНУ</div>
                                 <div class='price'>56499 руб.</div>
                             </div>
                             <div class='borders new_nine'><a href="product_description_AppleiPhone13ProMax.html">
@@ -152,7 +155,7 @@
                                 <div class='img_border'><img src='images/Phone5.webp' height='160px'></div> 
                                 <div class='type'>Смартфон</div>
                                 <div class='name'>Apple iPhone 13 Pro Max</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="AppleiPhone13ProMax">В КОРЗИНУ</div>
                                 <div class='price'>146999 руб.</div>
                             </div>
                             <div class='borders new_ten'><a href="product_description_HuaweiMateBookD16.html">
@@ -160,7 +163,7 @@
                                 <div class='img_border'><img src='images/laptop2.jpg' height='160px'></div> 
                                 <div class='type'>Ноутбук</div>
                                 <div class='name'>Huawei MateBook D 16</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="HuaweiMateBookD16">В КОРЗИНУ</div>
                                 <div class='price'>73790 руб.</div>
                             </div>
                             <div class='borders new_eleven'><a href="product_description_HuaweiMateBookD14.html">
@@ -168,7 +171,7 @@
                                 <div class='img_border'><img src='images/laptop3.jpg' height='160px'></div> 
                                 <div class='type'>Ноутбук</div>
                                 <div class='name'>Huawei MateBook D 14</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="HuaweiMateBookD14">В КОРЗИНУ</div>
                                 <div class='price'>47690 руб.</div>
                             </div>
                             <div class='borders new_twelve'><a href="product_description_LenovoIPGaming315ACH6.html">
@@ -176,7 +179,7 @@
                                 <div class='img_border'><img src='images/laptop4.jpg' height='160px'></div> 
                                 <div class='type'>Ноутбук</div>
                                 <div class='name'>Lenovo IP Gaming 3 15ACH6</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="LenovoIPGaming315ACH6">В КОРЗИНУ</div>
                                 <div class='price'>83990 руб.</div>
                             </div>
                         </div>
@@ -191,7 +194,7 @@
                                 <div class='img_border'><img src='images/laptop5.jpg' height='160px'></div> 
                                 <div class='type'>Ноутбук</div>
                                 <div class='name'>Honor MagicBook X15</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="HonorMagicBookX15">В КОРЗИНУ</div>
                                 <div class='price_hit'>59990 руб.</div>
                                 <div class='crossed-out-price'><s>74990 руб.</s></div>
                             </div>
@@ -200,7 +203,7 @@
                                 <div class='img_border'><img src='images/vertual_reality_helmet2.jpg.jpg' width='240px' height='160px'></div> 
                                 <div class='type'>Очки виртуальной реальности</div>
                                 <div class='name'>HIPER VRQ+</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="reality_helmet2">В КОРЗИНУ</div>
                                 <div class='price_hit'>1890 руб.</div>
                                 <div class='crossed-out-price'><s>3990 руб.</s></div>
                             </div>
@@ -209,7 +212,7 @@
                                 <div class='img_border'><img src='images/vertual_reality_helmet3.jpg' height='160px'></div> 
                                 <div class='type'>Очки виртуальной реальности</div>
                                 <div class='name'>HIPER VRR</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="HIPERVRR">В КОРЗИНУ</div>
                                 <div class='price_hit'>890 руб.</div>
                                 <div class='crossed-out-price'><s>1100 руб.</s></div>
                             </div>
@@ -218,7 +221,7 @@
                                 <div class='img_border'><img src='images/vertual_reality_helmet4.jpg' height='160px'></div> 
                                 <div class='type'>Очки виртуальной реальности</div>
                                 <div class='name'>HIPER VR VRW</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="HIPERVRVRW">В КОРЗИНУ</div>
                                 <div class='price_hit'>1590 руб.</div>
                                 <div class='crossed-out-price'><s>2200 руб.</s></div>
                             </div>
@@ -229,7 +232,7 @@
                                 <div class='img_border'><img src='images/vertual_reality_helmet5.jpg' height='160px'></div> 
                                 <div class='type'>Очки виртуальной реальности</div>
                                 <div class='name'>HIPER VR Max</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="reality_helmet5">В КОРЗИНУ</div>
                                 <div class='price_stock'>3490 руб.</div>
                                 <div class='crossed-out-price'><s>4200 руб.</s></div>
                             </div>
@@ -238,7 +241,7 @@
                                 <div class='img_border'><img src='images/Disk2.jpg' height='160px'></div> 
                                 <div class='type'>SSD накопитель</div>
                                 <div class='name'>Crucial CT240BX500SSD1</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="CrucialCT240BX500SSD1">В КОРЗИНУ</div>
                                 <div class='price_stock'>3690 руб.</div>
                                 <div class='crossed-out-price'><s>4300 руб.</s></div>
                             </div>
@@ -247,7 +250,7 @@
                                 <div class='img_border'><img src='images/Disk3.jpg' height='160px'></div> 
                                 <div class='type'>SSD накопитель</div>
                                 <div class='name'>Silicon Power SP128GBSS3A5</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="iliconPowerSP128GBSS3A5">В КОРЗИНУ</div>
                                 <div class='price_stock'>1790 руб.</div>
                                 <div class='crossed-out-price'><s>2500 руб.</s></div>
                             </div>
@@ -256,7 +259,7 @@
                                 <div class='img_border'><img src='images/Disk4.jpg' height='137px' width="220px"></div> 
                                 <div class='type'>SSD накопитель</div>
                                 <div class='name'>Kingston NV1 SNVS/500G 500ГБ</div></a>
-                                <div class='tab'>В КОРЗИНУ</div>
+                                <div class='tab' data-id="KingstonNV1SNVS500G500ГБ">В КОРЗИНУ</div>
                                 <div class='price_stock'>5890 руб.</div>
                                 <div class='crossed-out-price'><s>8000 руб.</s></div>
                             </div>

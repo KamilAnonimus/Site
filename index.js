@@ -26,13 +26,24 @@ function Sum() {
     document.querySelector('.sum').innerHTML = sum;
 }
 
+let i = 0
+let ids = 0;
+let sideBar = 0;
 document.onclick = event => {
     if (event.target.classList.contains('tab')) {
         plusFunction(event.target.dataset.id);
+        ids = event.target.dataset.id;
         sum += 1;
         Sum();
+        sideBar = localStorage.setItem(i +=1 , ids);
     }
 }
+
+window.onload = function(empty) {
+    if (localStorage.getItem("1") !== null) {
+        document.querySelector('#empty').style.display = 'none';
+    }
+};
 
 const plusFunction = id => {
     cart[id]++;

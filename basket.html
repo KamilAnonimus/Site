@@ -18,11 +18,36 @@
                 <div class='text2'>г.Москва, ул.Ленина, 5Б</div>
                 <div class='text1'>Интернет магазин техники и электроники</div>
                 <div class='location'><img src='images/location.jpg' height='14px'></div>
+                <div id="empty_trash">Очистить корзину</div>
             </div>
             <div class='header-down'>
                 <div class='logo'><a href='index.html' height='50px'><img src='images/logo.jpg' height='90px'></a></div>
             </div>
         </div>
+        <homepage>
+            <div id="empty"><h2>Корзина пуста</div>
+            <ul>
+                <li>
+                    <div class="borders_basket VIVOY53s6/128Gb">
+                        <div class="photo"><img src="images/Phone1.jpg" height="150px"></div>
+                        <div class="name_basket"><h1>VIVO Y53s 6/128Gb</div>
+                        <div class="amount"><h3>1</div>
+                        <div class="plus"><h3>+</div>
+                        <div class="minus"><h3>−</div>
+                        <div class="delete">Удалить</div>
+                        <div class="basket_price price">21 999 руб.</div>
+                        <div class="pay">Оплатить</div>
+                    </div>
+                </li>
+            </ul>
+        </homepage>
     </header>
+    <script>
+        var empty_trash = document.querySelector('#empty_trash');
+        empty_trash.onclick = function () {
+            localStorage.clear();
+            document.querySelector('#empty').style.display = 'block';
+        }
+    </script>
 </body>
 </html>

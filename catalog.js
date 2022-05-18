@@ -1,4 +1,4 @@
-document.querySelector('#elastic').oninput = function(){
+document.querySelector('#elastic').oninput = function() {
     let val = this.value.trim();
     let elasticName = document.querySelectorAll('.elastic li');
     if (val != "") {

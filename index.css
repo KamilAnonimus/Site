@@ -455,7 +455,7 @@ body {
 
 a {text-decoration: none;}
 
-.sum     {
+.sum {
   left: 26px;
   bottom: 50px;
   position: relative;
@@ -504,6 +504,7 @@ li {list-style-type: none;}
   position: relative;
   left: 925px;
   bottom: 251px;
+  font-size: 20px
 }
 
 .minus {
@@ -511,7 +512,8 @@ li {list-style-type: none;}
   width: 12px;
   position: relative;
   left: 960px;
-  bottom: 292px;
+  bottom: 275px;
+  font-size: 20px;
 }
 
 .delete {
@@ -543,19 +545,18 @@ li {list-style-type: none;}
 }
 #borders-basket {height: 153px;}
 #borders_catalog {display: block;}
-img {max-width: 350px;}
 
 .fullprice {
   position: absolute;
-  text-align: center;
   top: 115px;
   z-index: -1;
-  left: 615px;
+  display: block;
+  margin-left: 555px;
 }
 
 .pay-the-bill {
   position: absolute;
-  left: 485px;
+  margin-left: 442px;
   height: 56px;
   width: 91px;
   border: 1px solid #36b5ff;
@@ -570,5 +571,22 @@ img {max-width: 350px;}
 #fullprice-number {
   position: relative;
   text-align: center;
-  bottom: 156px;
+  bottom: 98px;
+  z-index: -1;
+  font-size: 30px;
+}
+
+.currency {
+  position: relative;
+  left: 645px;
+  width: 200px;
+  bottom: 295px;
+  color: #df8620;
+}
+.currency_fullprice {
+  color: #df8620;
+  width: 200px;
+  left: 650px;
+  bottom: 135px;
+  display: none;
 }

@@ -23,7 +23,8 @@
                 <div class='logo'><a href='index.html' height='50px'><img src='images/logo.jpg' height='90px'></a></div>
                 <div id="empty"><h2>Корзина пуста</div>
                 <div class="fullprice"><h2>Итого</div>
-                <div class="price" id="fullprice-number"><h3></div>
+                <div class="price" id="fullprice-number"></div>
+                <div class="basket_price currency_fullprice" id="currency_fullprice">руб</div>
                 <div class="pay-the-bill"><h4>Оплатить</div>
             </div>
         </div>
@@ -31,247 +32,281 @@
             <ul id="borders_basket">
                 <li>
                     <div id='borders-basket' class="vivoy53s" style="display: none;">
-                        <div class="photo" ><img src="images/Phone1.jpg" height="150px"></div>
+                        <div class="photo" ><img src="images/Phone1.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>VIVO Y53s 6/128Gb</div>
-                        <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="amount" id="vivoy53s-amount"><h3>1</div>
+                        <div class="plus" data-id="vivoy53s">+</div>
+                        <div class="minus" data-id="vivoy53s">−</div>
                         <div class="delete">Удалить</div>
                         <div class="basket_price price" id="price_one">21999</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
-                    <div id='borders-basket' class="KingstonSA400S37/240G" style="display: none;">
-                        <div class="photo"><img src="images/Disk1.jpg" height="150px"></div>
+                    <div id='borders-basket' class="KingstonSA400S37240G" style="display: none;">
+                        <div class="photo"><img src="images/Disk1.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Kingston SA400S37/240G</div>
-                        <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="amount" id="KingstonSA400S37240G-amount"><h3>1</div>
+                        <div class="plus" data-id="KingstonSA400S37240G">+</div>
+                        <div class="minus" data-id="KingstonSA400S37240G">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price" id="price_two">3790 руб.</div>
+                        <div class="basket_price price" id="price_two">3790</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HuaweiMateBookD15" style="display: none;">
-                        <div class="photo"><img src="images/laptop1.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/laptop1.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Huawei MateBook D 15</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HuaweiMateBookD15">+</div>
+                        <div class="minus" data-id="HuaweiMateBookD15">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price" id="price_three">22999</div>
+                        <div class="basket_price price" id="price_three">46790</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HIPERVRNeo" style="display: none;">
-                        <div class="photo"><img src="images/vertual_reality_helmet1.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/vertual_reality_helmet1.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>HIPER VR Neo</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HIPERVRNeo">+</div>
+                        <div class="minus" data-id="HIPERVRNeo">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price" id="price_four">1290 руб.</div>
+                        <div class="basket_price price" id="price_four">1290</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="SamsungGalaxyS20FE" style="display: none;">
-                        <div class="photo"><img src="images/Phone2jpg.webp" height="150px"></div>
+                        <div class="photo"><img src="images/Phone2jpg.webp" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Samsung Galaxy S20 FE</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="SamsungGalaxyS20FE">+</div>
+                        <div class="minus" data-id="SamsungGalaxyS20FE">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">42999 руб.</div>
+                        <div class="basket_price price" id="price_five">42999</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="KingstonNV1SNVS500G500ГБ" style="display: none;">
-                        <div class="photo"><img src="images/Disk4.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/Disk4.jpg" height="150px"style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Kingston NV1 SNVS/500G 500ГБ</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="KingstonNV1SNVS500G500ГБ">+</div>
+                        <div class="minus" data-id="KingstonNV1SNVS500G500ГБ">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">5890 руб.</div>
+                        <div class="basket_price price" id="price_six">5890</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="IntelCorei310100F" style="display: none;">
-                        <div class="photo"><img src="images/cpu1.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/cpu1.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Intel Core i3 10100F</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="IntelCorei310100F">+</div>
+                        <div class="minus" data-id="IntelCorei310100F">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">11890 руб.</div>
+                        <div class="basket_price price" id="price_seven">11890</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="XiaomiRedmiNote10Pro" style="display: none;">
-                        <div class="photo"><img src="images/Phone3.webp" height="150px"></div>
+                        <div class="photo"><img src="images/Phone3.webp" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Xiaomi Redmi Note 10 Pro</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="XiaomiRedmiNote10Pro">+</div>
+                        <div class="minus" data-id="XiaomiRedmiNote10Pro">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">28999 руб.</div>
+                        <div class="basket_price price" id="price_eight">28999</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="AppleiPhone11" style="display: none;">
-                        <div class="photo"><img src="images/Phone4.webp" height="150px"></div>
+                        <div class="photo"><img src="images/Phone4.webp" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Apple iPhone 11</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="AppleiPhone11">+</div>
+                        <div class="minus" data-id="AppleiPhone11">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">56499 руб.</div>
+                        <div class="basket_price price" id="price_nine">56499</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="AppleiPhone13ProMax" style="display: none;">
-                        <div class="photo"><img src="images/Phone5.webp" height="150px"></div>
+                        <div class="photo"><img src="images/Phone5.webp" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Apple iPhone 13 Pro Max</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="AppleiPhone13ProMax">+</div>
+                        <div class="minus" data-id="AppleiPhone13ProMax">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">146999 руб.</div>
+                        <div class="basket_price price" id="price_ten">146999</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HuaweiMateBookD16" style="display: none;">
-                        <div class="photo"><img src="images/laptop2.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/laptop2.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Huawei MateBook D 16</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HuaweiMateBookD16">+</div>
+                        <div class="minus" data-id="HuaweiMateBookD16">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">73790 руб.</div>
+                        <div class="basket_price price" id="price_eleven">73790</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HuaweiMateBookD14" style="display: none;">
-                        <div class="photo"><img src="images/laptop3.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/laptop3.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Huawei MateBook D 14</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HuaweiMateBookD14">+</div>
+                        <div class="minus" data-id="HuaweiMateBookD14">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">47690 руб.</div>
+                        <div class="basket_price price" id="price_twelve">47690</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="LenovoIPGaming315ACH6" style="display: none;">
-                        <div class="photo"><img src="images/laptop4.jpg" height="150px"></div>
-                        <div class="name_basket"><h1></div>
+                        <div class="photo"><img src="images/laptop4.jpg" height="150px" style="max-width: 350px;"></div>
+                        <div class="name_basket"><h1>Lenovo IP Gaming 3 15ACH6</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="LenovoIPGaming315ACH6">+</div>
+                        <div class="minus" data-id="LenovoIPGaming315ACH6">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">83990 руб.</div>
+                        <div class="basket_price price" id="price_thirteen">83990</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HonorMagicBookX15" style="display: none;">
-                        <div class="photo"><img src="images/laptop5.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/laptop5.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Honor MagicBook X15</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HonorMagicBookX15">+</div>
+                        <div class="minus" data-id="HonorMagicBookX15">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">59990 руб.</div>
+                        <div class="basket_price price" id="price_fourteen">59990</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
-                    <div id='borders-basket' class="" style="display: none;">
-                        <div class="photo"><img src="" height="150px"></div>
-                        <div class="name_basket"><h1></div>
+                    <div id='borders-basket' class="SiliconPowerSP128GBSS3A5" style="display: none;">
+                        <div class="photo"><img src="images/Disk3.jpg" height="150px" style="max-width: 350px;"></div>
+                        <div class="name_basket"><h1>Silicon Power SP128GBSS3A5</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="SiliconPowerSP128GBSS3A5">+</div>
+                        <div class="minus" data-id="SiliconPowerSP128GBSS3A5">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price"></div>
+                        <div class="basket_price price" id="price_fifteen"></div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HIPERVRQ+" style="display: none;">
-                        <div class="photo"><img src="images/vertual_reality_helmet2.jpg.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/vertual_reality_helmet2.jpg.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>HIPER VRQ+</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HIPERVRQ+">+</div>
+                        <div class="minus" data-id="HIPERVRQ+">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">1890 руб.</div>
+                        <div class="basket_price price" id="price_sixteen">1890</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HIPERVRR" style="display: none;">
-                        <div class="photo"><img src="images/vertual_reality_helmet3.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/vertual_reality_helmet3.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>HIPER VRR</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HIPERVRR">+</div>
+                        <div class="minus" data-id="HIPERVRR">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">890 руб.</div>
+                        <div class="basket_price price" id="price_seventeen">890</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HIPERVRVRW" style="display: none;">
-                        <div class="photo"><img src="images/vertual_reality_helmet4.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/vertual_reality_helmet4.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>HIPER VR VRW</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HIPERVRVRW">+</div>
+                        <div class="minus" data-id="HIPERVRVRW">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">1590 руб.</div>
+                        <div class="basket_price price" id="price_eighteen">1590</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="HIPERVRMax" style="display: none;">
-                        <div class="photo"><img src="images/vertual_reality_helmet5.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/vertual_reality_helmet5.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>HIPER VR Max</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="HIPERVRMax">+</div>
+                        <div class="minus" data-id="HIPERVRMax">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">3490 руб.</div>
+                        <div class="basket_price price" id="price_nineteen">3490</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
                 <li>
                     <div id='borders-basket' class="CrucialCT240BX500SSD1" style="display: none;">
-                        <div class="photo"><img src="images/Disk2.jpg" height="150px"></div>
+                        <div class="photo"><img src="images/Disk2.jpg" height="150px" style="max-width: 350px;"></div>
                         <div class="name_basket"><h1>Crucial CT240BX500SSD1</div>
                         <div class="amount"><h3>1</div>
-                        <div class="plus"><h3>+</div>
-                        <div class="minus"><h3>−</div>
+                        <div class="plus" data-id="CrucialCT240BX500SSD1">+</div>
+                        <div class="minus" data-id="CrucialCT240BX500SSD1">−</div>
                         <div class="delete">Удалить</div>
-                        <div class="basket_price price">3690 руб.</div>
+                        <div class="basket_price price" id="price_twenty">3690</div>
                         <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
+                    </div>
+                </li>
+                <li>
+                    <div id='borders-basket' class="CrucialCT240BX500SSD1" style="display: none;">
+                        <div class="photo"><img src="images/Disk2.jpg" height="150px" style="max-width: 350px;"></div>
+                        <div class="name_basket"><h1>Crucial CT240BX500SSD1</div>
+                        <div class="amount"><h3>1</div>
+                        <div class="plus" data-id="CrucialCT240BX500SSD1">+</div>
+                        <div class="minus" data-id="CrucialCT240BX500SSD1">−</div>
+                        <div class="delete">Удалить</div>
+                        <div class="basket_price price" id="price_twenty">3690</div>
+                        <div class="pay">Цена</div>
+                        <div class="basket_price currency">руб</div>
                     </div>
                 </li>
             </ul>
         </homepage>
     </header>
-    <script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="basket.js"></script>
 </body>
 </html>

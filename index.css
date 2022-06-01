@@ -11,7 +11,12 @@ body {
   width: 1200px;
   margin: 0 auto;
   max-block-size: 10%;
+  height: 4409px;
 }
+
+.header {height: 303px;}
+.header-top {height: 37px;}
+.header-down {height: 266px;}
 
 .text1 {
   position: absolute;
@@ -39,9 +44,11 @@ body {
   left: 1010px;
   bottom: 100px;
   width: 20px;
+  height: 19px;
 }
   
 .logo {
+  height: 95px;
   position: relative;
   bottom: 60px;
   text-align: left;
@@ -61,6 +68,7 @@ body {
   text-align: center;
   left: 390px;
   width: 20px;
+  height: 25px;
 }
   
 .numberPhone2 {
@@ -94,53 +102,10 @@ body {
   left: 475px;
   width: 20px;
 }
-  
-.panel.one {
-  position: absolute;
-  margin-top: 85px;
-}
-
-.panel.two {
-  position: absolute;
-  margin-top: 85px;
-  margin-left: 80px;
-}
-
-.panel.three {
-  position: absolute;
-  margin-top: 85px;
-  margin-left: 162px;
-}
-
-.panel.four {
-  position: absolute;
-  margin-top: 85px;
-  margin-left: 295px;
-}
-
-.panel.five {
-  position: absolute;
-  margin-top: 85px;
-  margin-left: 421px;
-}
-
-.panel.six {
-  position: absolute;
-  margin-top: 85px;
-  margin-left: 490px;
-}
-  
-.panel.seven {
-  position: absolute;
-  margin-top: 85px;
-  margin-left: 571px;
-}
 
 .panel {
   border: 0.1px solid rgba(212, 212, 212, 1);
   padding: 20px;
-  position: fixed;
-  top: 100px;
   font-size: 11.78px;
 }
 .panel:hover{
@@ -154,7 +119,7 @@ body {
 	padding: 0;
   padding-right: 95%;
   position: relative;
-  top: 149px;
+  top: 165%;
   height: 54px;
 }
   
@@ -590,4 +555,10 @@ li {list-style-type: none;}
   left: 650px;
   bottom: 135px;
   display: none;
+}
+
+.panel_buttom {    
+  position: relative;
+  display: flex;
+  top: -152px;
 }

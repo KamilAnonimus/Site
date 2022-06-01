@@ -12,12 +12,15 @@
         <div class='upPanel'></div>
     </div>
     <header class='container'>
-        <div class='header'>
+        <div class='header_catalog'>
             <div class='text2_catalog'>г.Москва, ул.Ленина, 5Б</div>
             <div class='text1_catalog'>Интернет магазин техники и электроники</div>
             <div class='location_catalog'><img src='images/location.jpg' height='14px'></div>
+            <a href="basket.html"><div class='basket' id="basket_ctalog"><img src='images/basket.png' height='45px'>
+                <div class="sum">0</div>
+            </div></a>
         </div>
-        <form action="" method="get">
+        <form method="get">
             <input class="link1" id='elastic' placeholder="  Поиск по товарам" type="search">
             <button id='link'type="submit" class="link"><img src="images/link.jpg" height="23px"></button>
         </form>
@@ -58,7 +61,7 @@
                 </ul>
             </div>
             <ul class="elastic">
-                <li class="borders_catalog laptop one"><a href="product_description_HuaweiMateBookD15.html">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 15 хуавей Хуавей [efdtq] {eqdtq}
+                <li class="borders_catalog laptop one" id="one"><a href="product_description_HuaweiMateBookD15.html">Ноутбук ноутбук laptop Laptop yjen,er Yjen,re Huawei MateBook D 15 хуавей Хуавей [efdtq] {eqdtq}
                     <div class='borders_catalog laptop' style="color: black;">
                         <div class='img_border'><img src='images/laptop1.jpg' height='160px' width="250px"></div> 
                         <div class='type'>Ноутбук</div>
@@ -85,7 +88,7 @@
                         <div class='price'>3790 руб.</div>
                     </div>
                 </li>
-                <li class="borders_catalog vertual_reality four"><a href="product_description_HIPERVRNeo.html">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR Neo ршзук мк тущ хайпер Хайпер [fqgth] {fqgth}
+                <li class="borders_catalog vertual_reality four" id="four"><a href="product_description_HIPERVRNeo.html">Очки виртуальной реальности jxrb dbhnefkmyjq htfkmyjcnb очки очик Очик Jxrb HIPER VR Neo ршзук мк тущ хайпер Хайпер [fqgth] {fqgth}
                     <div class='borders_catalog vertual_reality' style="color: black">
                         <div class='img_border'><img src='images/vertual_reality_helmet1.jpg' height='160px'></div> 
                         <div class='type'>Очки виртуальной реальности</div>
@@ -220,7 +223,7 @@
                         <div class='price_stock'>3490 руб.</div>  
                     </div>
                 </li>
-                <li class="borders_catalog ssd nineteen"><a href="product_description_CrucialCT240BX500SSD1.html">ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Crucial CT240BX500SSD1 кингстон rbyucnjy са
+                <li class="borders_catalog ssd nineteen" id="nineteen"><a href="product_description_CrucialCT240BX500SSD1.html">ссд жёсткий диск твердотельный накопитель ssd disk ccl ;`cnrbq lbcr ndthljntkmysq yfrjgbntkm Crucial CT240BX500SSD1 кингстон rbyucnjy са
                     <div class='borders_catalog ssd' style="color: black">
                         <div class='img_border'><img src='images/Disk2.jpg' height='160px'></div> 
                         <div class='type'>SSD накопитель</div>
@@ -241,5 +244,11 @@
             </ul>
         </div>
     <script src="catalog.js"></script>
+    <!-- <script type="text/javascript" src="index.js"></script>
+    <script>
+        window.onload = function() {
+document.querySelector('.sum').innerHTML = localStorage.length;
+        }
+    </script> -->
 </body>
 </html>

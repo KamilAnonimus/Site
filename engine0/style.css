@@ -30,7 +30,7 @@
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-	top: -80px;
+    bottom: 140px;
 }
 
 * html #wowslider-container0{ width:1000px }

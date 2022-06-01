@@ -32,13 +32,13 @@
                             <div class='numberPhone2'>+7 124 334-55-57</div>
                             <div class='stationPhone1'><img src='images/stationPhone.png' height='13px'></div>
                             <div class='stationPhone2'><img src='images/stationPhone.png' height='13px'></div>
-                            <a href='index.html' style='color:black'><div class='panel one'>Главная</div></a>
+                            <div class="panel_buttom"><a href='index.html' style='color:black'><div class='panel one'>Главная</div></a>
                             <a href='catalog.html' style='color:black'><div class='panel two'>Каталог</div></a>
                             <div class='panel three'>Доставка и оплата</div>
                             <div class='panel four'>Новости и акции</div>
                             <div class='panel five'>О нас</div>
                             <div class='panel six'>Отзывы</div>
-                            <div class='panel seven'>Контакты</div>
+                            <div class='panel seven'>Контакты</div></div>
                             <a href="basket.html"><div class='basket'><img src='images/basket.png' height='45px'>
                                 <div class="sum">0</div>
                             </div></a>
@@ -232,7 +232,7 @@
                                 <div class='img_border'><img src='images/vertual_reality_helmet5.jpg' height='160px'></div> 
                                 <div class='type'>Очки виртуальной реальности</div>
                                 <div class='name'>HIPER VR Max</div></a>
-                                <div class='tab' data-id="reality_helmet5">В КОРЗИНУ</div>
+                                <div class='tab' data-id="HIPERVRMax">В КОРЗИНУ</div>
                                 <div class='price_stock'>3490 руб.</div>
                                 <div class='crossed-out-price'><s>4200 руб.</s></div>
                             </div>
@@ -250,7 +250,7 @@
                                 <div class='img_border'><img src='images/Disk3.jpg' height='160px'></div> 
                                 <div class='type'>SSD накопитель</div>
                                 <div class='name'>Silicon Power SP128GBSS3A5</div></a>
-                                <div class='tab' data-id="iliconPowerSP128GBSS3A5">В КОРЗИНУ</div>
+                                <div class='tab' data-id="SiliconPowerSP128GBSS3A5">В КОРЗИНУ</div>
                                 <div class='price_stock'>1790 руб.</div>
                                 <div class='crossed-out-price'><s>2500 руб.</s></div>
                             </div>
@@ -295,5 +295,10 @@
                 </div>
             </div>
         </header>
+        <script>
+            window.onload = function() {
+    document.querySelector('.sum').innerHTML = localStorage.length;
+            }
+        </script>
     </body>
 </html>

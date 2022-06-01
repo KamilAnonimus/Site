@@ -220,3 +220,10 @@ li.one {
 
 #name3 {height: 37px;}
 #name6 {top: 9px;}
+
+#one {top: -80px;}
+
+#basket_ctalog {
+    position: relative;
+    top: 35px;
+}

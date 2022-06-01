@@ -18,6 +18,8 @@ document.querySelector('#elastic').oninput = function() {
     }
 }
 
+const border_HIPERVRNEo = document.getElementById('four');
+const border_CrucialCT240BX500SSD1 = document.getElementById('nineteen');
 var categori = document.querySelector('#categories');
 var arrow = document.querySelector('#arrow');
 var ticks1 = document.querySelector('.buttons');
@@ -140,6 +142,7 @@ var mark_three = document.querySelector('.mark_three')
 var name3 = document.querySelector('#name3')
 var c = 1
 name3.onclick = function () {
+    border_HIPERVRNEo.style.top = '-86px';
     c += 1
     function mark3(c){
         if(Number.isInteger(c) == true){return c % 2 == 0}else{return undefined}
@@ -188,6 +191,7 @@ var mark_four = document.querySelector('.mark_four')
 var name4 = document.querySelector('#name4')
 var d = 1
 name4.onclick = function () {
+    border_CrucialCT240BX500SSD1.style.top = '-74px';
     d += 1
     function mark4(d){
         if(Number.isInteger(d) == true){return d % 2 == 0}else{return undefined}
@@ -278,6 +282,8 @@ var mark_six = document.querySelector('.mark_six')
 var name6 = document.querySelector('#name6')
 var f = 1
 name6.onclick = function () {
+    border_HIPERVRNEo.style.top = '-80px';
+    border_CrucialCT240BX500SSD1.style.top = '-80px';
     f += 1
     function mark6(f){
         if(Number.isInteger(f) == true){return f % 2 == 0}else{return undefined}

@@ -109,7 +109,7 @@ a {z-index: 99;}
     bottom: 163px;
 }
 
-.in_basket {
+.tab {
 	background-color: #36b5ff;
 	text-align: center;
 	width: 125px;
@@ -117,7 +117,7 @@ a {z-index: 99;}
 	position: relative;
 	bottom: 150px;
 }
-.in_basket:hover {opacity: 75%;}
+.tab:hover {opacity: 75%;}
 
 .homepage {height: 550px;}
 
@@ -133,8 +133,4 @@ a {z-index: 99;}
 }
 .basket:hover {opacity: 75%;}
 
-.basket_product_description {
-	position: absolute;
-	margin-left: 1160px;
-	top: 107px;
-}
+a {text-decoration: none;}

@@ -6,7 +6,6 @@
     <link rel='stylesheet' href='product_description.css'>
     <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
-    <script src=""></script>
     <title>Electronic shop</title>
 </head>
 <body>
@@ -20,7 +19,6 @@
             <div class='location'><img src='images/location.jpg' height='14px'></div>
             <div class='logo'><a href='index.html'><img src='images/logo.jpg' height='90px'></a></div>
             <h1 class="name">Samsung Galaxy S20 FE</h1>
-            <div class='basket_product_description'><img src='images/basket.png' height='25px'></div>
         </div>
         <div class="homepage">
             <div class="slider">
@@ -67,10 +65,11 @@
                     2SIM<br>
                     нано-SIM<br>
                 </div>
-                <div class="in_basket"><h4>В КОРЗИНУ</h4></div>
-                <div class="basket"><h4>КОРЗИНА</h4></div>
+                <div class="tab" data-id="SamsungGalaxyS20FE"><h4>В КОРЗИНУ</h4></div>
+                <a href="basket.html" style="color:black;"><div class="basket"><h4>КОРЗИНА</h4></div></a>
             </div>
         </div>
+        <script type="text/javascript" src="index.js"></script>
         <script>
             $(document).ready(function(){
                 $('.slider ul').bxSlider({

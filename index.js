@@ -12,7 +12,7 @@ let cart = {
     'HuaweiMateBookD14' : 0,
     'LenovoIPGaming315ACH6' : 0,
     'HonorMagicBookX15' : 0,
-    'HIPERVRQ+' : 0,
+    'HIPERVRQ' : 0,
     'HIPERVRR' : 0,
     'HIPERVRVRW' : 0,
     'HIPERVRMax' : 0,
@@ -103,9 +103,9 @@ function render() {
         document.querySelector('.HonorMagicBookX15').style.display = 'block';
         let price_fourteen = document.querySelector("#HonorMagicBookX15").textContent;
         fullprice += Number(price_fourteen);}
-    if("HIPERVRQ+" == render_getItem){
-        document.querySelector('.HIPERVRQ+').style.display = 'block';
-        let price_sixteen = document.querySelector("#HIPERVRQ+").textContent;
+    if("HIPERVRQ" == render_getItem){
+        document.querySelector('.HIPERVRQ').style.display = 'block';
+        let price_sixteen = document.querySelector("#HIPERVRQ").textContent;
         fullprice += Number(price_sixteen);}
     if("HIPERVRR" == render_getItem){
         document.querySelector('.HIPERVRR').style.display = 'block';

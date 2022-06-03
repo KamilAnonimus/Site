@@ -222,8 +222,6 @@ body {
 .OutsideTheContainer {height: 90px;}
 
 .text3 {
-  position: relative;
-  top: 90px;
   font-size: 25px;
   height: 1356px;
 }
@@ -295,7 +293,6 @@ body {
 
 .homepage-top {height: 1726px;}
 
-.banner {margin-top:30px;}
 
 .text4 {
   position: relative;
@@ -392,7 +389,7 @@ body {
 .img {text-align: center;padding-top: 50px;}
 .apple {padding-top: 50px;}
 .acer {padding-top: 50px;}
-.tabletss {height: 300px;margin-top:120px;}
+.tabletss {height: 300px;margin-top:90px;}
 
 .description {
   position: relative;

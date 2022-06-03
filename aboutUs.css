@@ -48,6 +48,7 @@ body {
 .logo {width: 115px;}
 
 .aboutUs {
+    z-index: -1;
     position: relative;
     text-align: center;
     bottom: 85px;
